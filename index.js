@@ -1,6 +1,7 @@
 let tm = require("topmodel4ts");
 let data = require("./src/json_data/slide_1_test.json");
 let deepColorConvert = require('./utils/deepColorConvert.js')
+let deepCoordinateConvert = require('./utils/deepCoordinateConvert.js')
 
 let log = (...args) => console.log(...args)
 //================================================
@@ -15,10 +16,11 @@ let log = (...args) => console.log(...args)
     // log('debug slide : \n', slide.Elements.map((ele, key) => ele.__proto__.constructor.saveName))
     slide.Elements.forEach((ele, key) => Object.assign(ele, {ElementType: ele.__proto__.constructor.saveName}))
     let prop = slide.Elements[0].Background
-    log('debug __proto__ : \n', prop.__proto__.constructor.saveName)
-    log('debug color : \n', prop)
-    log('debug color : \n', prop.Color)
+    // log('debug __proto__ : \n', prop.__proto__.constructor.saveName)
+    // log('debug color : \n', prop)
+    // log('debug color : \n', prop.Color)
     deepColorConvert(slide)
+    deepCoordinateConvert(slide, {browserWidth: 1366, browserHeight: 768})
     // log('debug color : \n', prop.__proto__)
     // log('debug color : \n', prop)
     // log('debug color : \n', prop.Color)
