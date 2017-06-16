@@ -1,0 +1,376 @@
+{
+    "Slide": {
+        "Id": "2088a4bc58214727a3803547b523783f",
+        "Width": 1280.0,
+        "Height": 720.0,
+        "Background": {
+            "ColorBrush": "#FFFFFFFF"
+        },
+        "Elements": [
+            {
+                "Shape": {
+                    "Geometry": {
+                        "PresetGeometry": {
+                            "GeometryType": "Line",
+                            "Adjusts": [
+                                {
+                                    "Adjust": {
+                                        "Id": "0",
+                                        "ScaleX": "0",
+                                        "ScaleY": "0"
+                                    }
+                                },
+                                {
+                                    "Adjust": {
+                                        "Id": "1",
+                                        "ScaleX": "1",
+                                        "ScaleY": "0"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    "Background": {
+                        "ColorBrush": "#FF5C81CC"
+                    },
+                    "Foreground": {
+                        "ColorBrush": "#FFFFFF7F"
+                    },
+                    "Thickness": 17.0,
+                    "LineType": "None",
+                    "Opacity": 1.0,
+                    "Id": "69b0cbb7aad14d7f8647bc9946ea12aa",
+                    "X": 241.0,
+                    "Y": 61.0,
+                    "Width": 300.0,
+                    "Height": 17.0,
+                    "Rotation": 0.0,
+                    "IsLocked": false,
+                    "CanClone": false,
+                    "HasMask": false,
+                    "RotateOrigin": "0.5,0.5"
+                }
+            },
+            {
+                "Shape": {
+                    "Geometry": {
+                        "PresetGeometry": {
+                            "GeometryType": "LineArrowEnd",
+                            "Adjusts": [
+                                {
+                                    "Adjust": {
+                                        "Id": "0",
+                                        "ScaleX": "0",
+                                        "ScaleY": "0"
+                                    }
+                                },
+                                {
+                                    "Adjust": {
+                                        "Id": "1",
+                                        "ScaleX": "1",
+                                        "ScaleY": "0"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    "Background": {
+                        "ColorBrush": "#FF5C81CC"
+                    },
+                    "Foreground": {
+                        "ColorBrush": "#FF7F9DFF"
+                    },
+                    "Thickness": 17.0,
+                    "LineType": "EndDotArrow",
+                    "Opacity": 1.0,
+                    "Line": {
+                        "TailEnd": {
+                            "Type": "Arrow"
+                        }
+                    },
+                    "Effects": [
+                        {
+                            "PerspectiveShadow": {
+                                "OffsetY": 8.0,
+                                "ShadowMatrix": "1,0,0,-0.2,0,0",
+                                "ShadowBrush": {
+                                    "ColorBrush": "#FF000000"
+                                },
+                                "Opacity": 0.84,
+                                "BlurRadius": 17.0
+                            }
+                        }
+                    ],
+                    "Id": "2b14e9b417914b0c9f3247ce486492af",
+                    "X": 53.0,
+                    "Y": 149.0,
+                    "Width": 300.0,
+                    "Height": 17.0,
+                    "Rotation": 0.0,
+                    "IsLocked": false,
+                    "CanClone": false,
+                    "HasMask": false,
+                    "RotateOrigin": "0.5,0.5"
+                }
+            },
+            {
+                "Shape": {
+                    "Geometry": {
+                        "PresetGeometry": {
+                            "GeometryType": "LineArrowStartEnd",
+                            "Adjusts": [
+                                {
+                                    "Adjust": {
+                                        "Id": "0",
+                                        "ScaleX": "0",
+                                        "ScaleY": "0"
+                                    }
+                                },
+                                {
+                                    "Adjust": {
+                                        "Id": "1",
+                                        "ScaleX": "1",
+                                        "ScaleY": "5.2245789394125E-17"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    "Background": {
+                        "ColorBrush": "#FF5C81CC"
+                    },
+                    "Foreground": {
+                        "ColorBrush": "#FF7F9DFF"
+                    },
+                    "Thickness": 10.0,
+                    "LineType": "LongDash",
+                    "Opacity": 1.0,
+                    "Id": "93c801c0cd5045d5a252b31c0978dd08",
+                    "X": 483.0,
+                    "Y": 138.0,
+                    "Width": 412.030338688791,
+                    "Height": 17.0,
+                    "Rotation": 0.0,
+                    "IsLocked": false,
+                    "CanClone": false,
+                    "HasMask": false,
+                    "RotateOrigin": "0.5,0.5"
+                }
+            },
+            {
+                "Shape": {
+                    "Geometry": {
+                        "PresetGeometry": {
+                            "GeometryType": "RoundRectangle",
+                            "Adjusts": [
+                                {
+                                    "Adjust": {
+                                        "Id": "0",
+                                        "ScaleX": "0.166666666666667",
+                                        "ScaleY": "0"
+                                    }
+                                },
+                                {
+                                    "Adjust": {
+                                        "Id": "1",
+                                        "ScaleX": "0.333333333333333",
+                                        "ScaleY": "1.2"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    "Background": {
+                        "ColorBrush": "#FF5C81CC"
+                    },
+                    "Foreground": {
+                        "ColorBrush": "#FF7F9DFF"
+                    },
+                    "Thickness": 7.0,
+                    "LineType": "Dash",
+                    "Opacity": 1.0,
+                    "Effects": [
+                        {
+                            "PerspectiveShadow": {
+                                "OffsetY": 0.0,
+                                "ShadowMatrix": "1,0,0.3,0.3,0,0",
+                                "ShadowBrush": {
+                                    "ColorBrush": "#FF000000"
+                                },
+                                "Opacity": 0.3,
+                                "BlurRadius": 20.0
+                            }
+                        }
+                    ],
+                    "Id": "e86ae0ec32bf46cb899e36f0c0f2567c",
+                    "X": 63.0,
+                    "Y": 262.0,
+                    "Width": 221.0,
+                    "Height": 190.0,
+                    "Rotation": 0.0,
+                    "IsLocked": false,
+                    "CanClone": false,
+                    "HasMask": false,
+                    "RotateOrigin": "0.5,0.5"
+                }
+            },
+            {
+                "Shape": {
+                    "Geometry": {
+                        "PresetGeometry": {
+                            "GeometryType": "Star"
+                        }
+                    },
+                    "Background": {
+                        "ColorBrush": "#FF5C81CC"
+                    },
+                    "Foreground": {
+                        "ColorBrush": "#FFFF0000"
+                    },
+                    "Thickness": 7.0,
+                    "LineType": "Dash",
+                    "Opacity": 0.82,
+                    "Effects": [
+                        {
+                            "Reflection": {
+                                "OffsetY": 4.0,
+                                "Opacity": 0.35,
+                                "OpacityMask": {
+                                    "LinearGradientBrush": {
+                                        "StartPoint": "0,0",
+                                        "EndPoint": "0,1",
+                                        "GradientStops": "#00000000,0.3 #FF000000,1"
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "DropShadow": {
+                                "Offset": 38.0,
+                                "Angle": 322.0,
+                                "ShadowBrush": {
+                                    "ColorBrush": "#FF000000"
+                                },
+                                "Opacity": 0.45,
+                                "BlurRadius": 8.0
+                            }
+                        }
+                    ],
+                    "Id": "f18f983d1c674ab493254676ff0817d7",
+                    "X": 408.0,
+                    "Y": 297.0,
+                    "Width": 142.66,
+                    "Height": 135.68,
+                    "Rotation": 0.0,
+                    "IsLocked": false,
+                    "CanClone": false,
+                    "HasMask": false,
+                    "RotateOrigin": "0.5,0.5"
+                }
+            },
+            {
+                "Shape": {
+                    "Geometry": {
+                        "PresetGeometry": {
+                            "GeometryType": "Brace",
+                            "Adjusts": [
+                                {
+                                    "Adjust": {
+                                        "Id": "0",
+                                        "ScaleX": "0",
+                                        "ScaleY": "0.2"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    "Background": {
+                        "ColorBrush": "#FF5C81CC"
+                    },
+                    "Foreground": {
+                        "ColorBrush": "#FFFF0000"
+                    },
+                    "Thickness": 7.0,
+                    "LineType": "None",
+                    "Opacity": 1.0,
+                    "Effects": [
+                        {},
+                        {
+                            "DropShadow": {
+                                "Offset": 15.0,
+                                "Angle": 360.0,
+                                "ShadowBrush": {
+                                    "ColorBrush": "#FF000000"
+                                },
+                                "Opacity": 0.45,
+                                "BlurRadius": 8.0
+                            }
+                        }
+                    ],
+                    "Id": "6c63f98978e1499b90f37c4a96fcd2d2",
+                    "X": 574.0,
+                    "Y": 224.0,
+                    "Width": 50.0,
+                    "Height": 246.0,
+                    "Rotation": 0.0,
+                    "IsLocked": false,
+                    "CanClone": false,
+                    "HasMask": false,
+                    "RotateOrigin": "0.5,0.5"
+                }
+            },
+            {
+                "Shape": {
+                    "Geometry": {
+                        "CustomGeometry": {
+                            "GeometryType": "FreeShape",
+                            "Path": "M124,89L75,186Q17,145 75,186 133,227 102,284L41,291Q0,340,73,331C146,322 118,506 146,322 174,138 223,232 232,269 241,306 306,246 264,210 222,174 171,204 179,102 187,0 140,58 124,89z"
+                        }
+                    },
+                    "Background": {
+                        "ColorBrush": "#FF5C81CC"
+                    },
+                    "Foreground": {
+                        "ColorBrush": "#FFFF0000"
+                    },
+                    "Thickness": 7.0,
+                    "LineType": "Dash",
+                    "Opacity": 1.0,
+                    "ControlPoints": [
+                        {
+                            "Item": "3"
+                        },
+                        {
+                            "Item": "8"
+                        },
+                        {
+                            "Item": "11"
+                        },
+                        {
+                            "Item": "14"
+                        },
+                        {
+                            "Item": "17"
+                        },
+                        {
+                            "Item": "20"
+                        },
+                        {
+                            "Item": "0"
+                        }
+                    ],
+                    "Id": "9ce0099b16b543d1b1b836ee802fa7fc",
+                    "X": 647.34,
+                    "Y": 210.294,
+                    "Width": 251.749329251601,
+                    "Height": 359.820892331313,
+                    "Rotation": 0.0,
+                    "IsLocked": false,
+                    "CanClone": false,
+                    "HasMask": false,
+                    "RotateOrigin": "0.5,0.5"
+                }
+            }
+        ]
+    }
+}

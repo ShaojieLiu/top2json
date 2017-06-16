@@ -1,0 +1,324 @@
+{
+    "Slide": {
+        "Id": "fbbcebe019114230a16db6b3a4b45b74",
+        "Width": 1280.0,
+        "Height": 720.0,
+        "Background": {
+            "ColorBrush": "#FFFFFFFF"
+        },
+        "Elements": [
+            {
+                "GeometryElement": {
+                    "Geometries": [
+                        {
+                            "Geometry": {
+                                "Points": [
+                                    {
+                                        "Point": "257.99999871,0"
+                                    },
+                                    {
+                                        "Point": "0,2.99999998499999"
+                                    }
+                                ],
+                                "Type": "Line",
+                                "LineType": "Normal",
+                                "StrokeThickness": 2.0,
+                                "Stroke": {
+                                    "ColorBrush": "#FF305AAE"
+                                },
+                                "SegmentType": "Segment",
+                                "AngleOfEllipse": 0
+                            }
+                        }
+                    ],
+                    "Id": "5a77d68864d541d98f3ea042005107a1",
+                    "X": 130.4999991675,
+                    "Y": 146.4999989125,
+                    "Width": 257.99999871,
+                    "Height": 2.99999998499999,
+                    "Rotation": 0.0,
+                    "IsLocked": false,
+                    "CanClone": false,
+                    "HasMask": false,
+                    "RotateOrigin": "0.5,0.5"
+                }
+            },
+            {
+                "GeometryElement": {
+                    "Geometries": [
+                        {
+                            "Geometry": {
+                                "Points": [
+                                    {
+                                        "Point": "11.99999994,70.4999996475"
+                                    },
+                                    {
+                                        "Point": "0,241.4999987925"
+                                    },
+                                    {
+                                        "Point": "152.999999235,199.4999990025"
+                                    },
+                                    {
+                                        "Point": "296.999998515,269.99999865"
+                                    },
+                                    {
+                                        "Point": "88.4999995575,0"
+                                    }
+                                ],
+                                "Type": "Polygon",
+                                "LineType": "Normal",
+                                "StrokeThickness": 2.0,
+                                "Stroke": {
+                                    "ColorBrush": "#FF305AAE"
+                                },
+                                "SegmentType": "Line",
+                                "AngleOfEllipse": 0
+                            }
+                        }
+                    ],
+                    "Angles": [
+                        {
+                            "Angle": {
+                                "PrePoint": "88.4999995575,0",
+                                "CurPoint": "11.99999994,70.4999996475",
+                                "NextPoint": "0,241.4999987925",
+                                "Angle": 137
+                            }
+                        },
+                        {
+                            "Angle": {
+                                "PrePoint": "11.99999994,70.4999996475",
+                                "CurPoint": "0,241.4999987925",
+                                "NextPoint": "152.999999235,199.4999990025",
+                                "Angle": 71
+                            }
+                        },
+                        {
+                            "Angle": {
+                                "PrePoint": "0,241.4999987925",
+                                "CurPoint": "152.999999235,199.4999990025",
+                                "NextPoint": "296.999998515,269.99999865",
+                                "Angle": 221
+                            }
+                        },
+                        {
+                            "Angle": {
+                                "PrePoint": "152.999999235,199.4999990025",
+                                "CurPoint": "296.999998515,269.99999865",
+                                "NextPoint": "88.4999995575,0",
+                                "Angle": 26
+                            }
+                        },
+                        {
+                            "Angle": {
+                                "PrePoint": "296.999998515,269.99999865",
+                                "CurPoint": "88.4999995575,0",
+                                "NextPoint": "11.99999994,70.4999996475",
+                                "Angle": 85
+                            }
+                        }
+                    ],
+                    "Id": "9d665474dd5c47a3a07d275d53c930da",
+                    "X": 481.4999974125,
+                    "Y": 42.99999943,
+                    "Width": 296.999998515,
+                    "Height": 269.99999865,
+                    "Rotation": 0.0,
+                    "IsLocked": false,
+                    "CanClone": false,
+                    "HasMask": false,
+                    "RotateOrigin": "0.5,0.5"
+                }
+            },
+            {
+                "GeometryElement": {
+                    "Geometries": [
+                        {
+                            "Geometry": {
+                                "Points": [
+                                    {
+                                        "Point": "88.3473254940266,88.3473254940266"
+                                    },
+                                    {
+                                        "Point": "155.847325156527,145.347325209027"
+                                    }
+                                ],
+                                "Type": "Ellipse",
+                                "LineType": "Normal",
+                                "StrokeThickness": 2.0,
+                                "Stroke": {
+                                    "ColorBrush": "#FF305AAE"
+                                },
+                                "SegmentType": "Line",
+                                "AngleOfEllipse": 360
+                            }
+                        }
+                    ],
+                    "Angles": [
+                        {
+                            "Angle": {
+                                "PrePoint": "155.847325156527,145.347325209027",
+                                "CurPoint": "88.3473254940266,88.3473254940266",
+                                "NextPoint": "155.847325156527,145.347325209027",
+                                "Angle": 360
+                            }
+                        }
+                    ],
+                    "Id": "272510bd6c7a49fa8654c8a85b0d1fa2",
+                    "X": 945.153,
+                    "Y": 89.653,
+                    "Width": 176.694650988053,
+                    "Height": 176.694650988053,
+                    "Rotation": 0.0,
+                    "IsLocked": false,
+                    "CanClone": false,
+                    "HasMask": false,
+                    "RotateOrigin": "0.5,0.5"
+                }
+            },
+            {
+                "Cube": {
+                    "Size": "2.14466894660711,2,2",
+                    "Transform3D": "1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1",
+                    "EdgeThickness": 2.0,
+                    "EdgeBrush": {
+                        "ColorBrush": "#FF000000"
+                    },
+                    "Surfaces": [
+                        {
+                            "Surface": {
+                                "Fill": {
+                                    "ColorBrush": "#00FFFFFF"
+                                }
+                            }
+                        },
+                        {
+                            "Surface": {
+                                "Fill": {
+                                    "ColorBrush": "#00FFFFFF"
+                                }
+                            }
+                        },
+                        {
+                            "Surface": {
+                                "Fill": {
+                                    "ColorBrush": "#00FFFFFF"
+                                }
+                            }
+                        },
+                        {
+                            "Surface": {
+                                "Fill": {
+                                    "ColorBrush": "#00FFFFFF"
+                                }
+                            }
+                        },
+                        {
+                            "Surface": {
+                                "Fill": {
+                                    "ColorBrush": "#00FFFFFF"
+                                }
+                            }
+                        },
+                        {
+                            "Surface": {
+                                "Fill": {
+                                    "ColorBrush": "#00FFFFFF"
+                                }
+                            }
+                        }
+                    ],
+                    "Id": "c4b908733a1240938d259865867dbb59",
+                    "X": 109.999999265,
+                    "Y": 364.729578163687,
+                    "Width": 240.49972801425,
+                    "Height": 235.36,
+                    "Rotation": 0.0,
+                    "IsLocked": false,
+                    "CanClone": false,
+                    "HasMask": false,
+                    "RotateOrigin": "0.5,0.5"
+                }
+            },
+            {
+                "Cylinder": {
+                    "Size": "1,2,1",
+                    "Transform3D": "1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1",
+                    "EdgeThickness": 2.0,
+                    "EdgeBrush": {
+                        "ColorBrush": "#FF000000"
+                    },
+                    "Surfaces": [
+                        {
+                            "Surface": {
+                                "Fill": {
+                                    "ColorBrush": "#00FFFFFF"
+                                }
+                            }
+                        },
+                        {
+                            "Surface": {
+                                "Fill": {
+                                    "ColorBrush": "#00FFFFFF"
+                                }
+                            }
+                        },
+                        {
+                            "Surface": {
+                                "Fill": {
+                                    "ColorBrush": "#00FFFFFF"
+                                }
+                            }
+                        }
+                    ],
+                    "Id": "98a3e02ba61b4e5f8338831d45762495",
+                    "X": 483.4999973975,
+                    "Y": 353.337488905875,
+                    "Width": 200.0,
+                    "Height": 253.555431379754,
+                    "Rotation": 0.0,
+                    "IsLocked": false,
+                    "CanClone": false,
+                    "HasMask": false,
+                    "RotateOrigin": "0.5,0.5"
+                }
+            },
+            {
+                "Cone": {
+                    "Size": "1,2.1811890759505,1",
+                    "Transform3D": "1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1",
+                    "EdgeThickness": 2.0,
+                    "EdgeBrush": {
+                        "ColorBrush": "#FF000000"
+                    },
+                    "Surfaces": [
+                        {
+                            "Surface": {
+                                "Fill": {
+                                    "ColorBrush": "#00FFFFFF"
+                                }
+                            }
+                        },
+                        {
+                            "Surface": {
+                                "Fill": {
+                                    "ColorBrush": "#00FFFFFF"
+                                }
+                            }
+                        }
+                    ],
+                    "Id": "2681805fa22f40ce990c802c3ab0d032",
+                    "X": 870.959812760791,
+                    "Y": 306.57569655277,
+                    "Width": 220.08,
+                    "Height": 262.380221696008,
+                    "Rotation": 180.0,
+                    "IsLocked": false,
+                    "CanClone": false,
+                    "HasMask": false,
+                    "RotateOrigin": "0.5,0.5"
+                }
+            }
+        ]
+    }
+}

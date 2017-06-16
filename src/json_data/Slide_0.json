@@ -1,0 +1,1825 @@
+{
+    "Slide": {
+        "Id": "ad66b5b86b42480a831086f414bd1b74",
+        "Width": 1280.0,
+        "Height": 720.0,
+        "Background": {
+            "ColorBrush": "#FFFFFFFF"
+        },
+        "Elements": [
+            {
+                "Text": {
+                    "RichText": {
+                        "Text": "艺术字",
+                        "SizeToContent": "Manual",
+                        "VerticalTextAlignment": "Top",
+                        "TextLines": [
+                            {
+                                "TextLine": {
+                                    "IndentLevel": 0.0,
+                                    "LineSpacing": 1.0,
+                                    "TextAlignment": "Left",
+                                    "TextMarker": "None",
+                                    "TextRuns": [
+                                        {
+                                            "TextRun": {
+                                                "Text": "艺术字",
+                                                "FontSize": 40.0,
+                                                "FontVariants": "Normal",
+                                                "FontStyle": "Normal",
+                                                "FontWeight": "Normal",
+                                                "FontFamily": {
+                                                    "Source": "微软雅黑"
+                                                },
+                                                "Background": {
+                                                    "ColorBrush": "#00FFFFFF"
+                                                },
+                                                "Foreground": {
+                                                    "ColorBrush": "#FF0044FF"
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "DefaultRunProperty": {
+                                        "TextRun": {
+                                            "FontSize": 40.0,
+                                            "FontVariants": "Normal",
+                                            "FontStyle": "Normal",
+                                            "FontWeight": "Normal",
+                                            "FontFamily": {
+                                                "Source": "微软雅黑"
+                                            },
+                                            "Background": {
+                                                "ColorBrush": "#00FFFFFF"
+                                            },
+                                            "Foreground": {
+                                                "ColorBrush": "#FF0044FF"
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    "Id": "8628ab33c62e450c99c3d16f919b8fc1",
+                    "X": 27.306,
+                    "Y": 23.82,
+                    "Width": 140.0,
+                    "Height": 262.85,
+                    "Rotation": 0.0,
+                    "IsLocked": false,
+                    "CanClone": false,
+                    "HasMask": false,
+                    "RotateOrigin": "0.5,0.5"
+                }
+            },
+            {
+                "Text": {
+                    "RichText": {
+                        "Text": "艺术字",
+                        "SizeToContent": "Manual",
+                        "VerticalTextAlignment": "Top",
+                        "TextLines": [
+                            {
+                                "TextLine": {
+                                    "IndentLevel": 0.0,
+                                    "LineSpacing": 1.0,
+                                    "TextAlignment": "Left",
+                                    "TextMarker": "None",
+                                    "TextRuns": [
+                                        {
+                                            "TextRun": {
+                                                "Text": "艺术字",
+                                                "FontSize": 40.0,
+                                                "FontVariants": "Normal",
+                                                "FontStyle": "Normal",
+                                                "FontWeight": "Normal",
+                                                "FontFamily": {
+                                                    "Source": "微软雅黑"
+                                                },
+                                                "Background": {
+                                                    "ColorBrush": "#00FFFFFF"
+                                                },
+                                                "Foreground": {
+                                                    "ColorBrush": "#FF0044FF"
+                                                },
+                                                "TextEffects": [
+                                                    {
+                                                        "TextFill": {
+                                                            "FillBrush": {
+                                                                "ColorBrush": "#FF5B9BD5"
+                                                            }
+                                                        }
+                                                    },
+                                                    {
+                                                        "TextShadow": {
+                                                            "Opacity": 0.4,
+                                                            "Direction": 120.0,
+                                                            "Distance": 3.0,
+                                                            "Blur": 5.0,
+                                                            "Brush": {
+                                                                "ColorBrush": "#FF333333"
+                                                            }
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    ],
+                                    "DefaultRunProperty": {
+                                        "TextRun": {
+                                            "FontSize": 40.0,
+                                            "FontVariants": "Normal",
+                                            "FontStyle": "Normal",
+                                            "FontWeight": "Normal",
+                                            "FontFamily": {
+                                                "Source": "微软雅黑"
+                                            },
+                                            "Background": {
+                                                "ColorBrush": "#00FFFFFF"
+                                            },
+                                            "Foreground": {
+                                                "ColorBrush": "#FF0044FF"
+                                            },
+                                            "TextEffects": [
+                                                {
+                                                    "TextFill": {
+                                                        "FillBrush": {
+                                                            "ColorBrush": "#FF5B9BD5"
+                                                        }
+                                                    }
+                                                },
+                                                {
+                                                    "TextShadow": {
+                                                        "Opacity": 0.4,
+                                                        "Direction": 120.0,
+                                                        "Distance": 3.0,
+                                                        "Blur": 5.0,
+                                                        "Brush": {
+                                                            "ColorBrush": "#FF333333"
+                                                        }
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    "Id": "15b3e50c-6e48-4203-81dc-d5ba7d9f9319",
+                    "X": 186.648,
+                    "Y": 23.82,
+                    "Width": 140.0,
+                    "Height": 262.85,
+                    "Rotation": 0.0,
+                    "IsLocked": false,
+                    "CanClone": false,
+                    "HasMask": false,
+                    "RotateOrigin": "0.5,0.5"
+                }
+            },
+            {
+                "Text": {
+                    "RichText": {
+                        "Text": "艺术字",
+                        "SizeToContent": "WidthAndHeight",
+                        "VerticalTextAlignment": "Top",
+                        "TextLines": [
+                            {
+                                "TextLine": {
+                                    "IndentLevel": 0.0,
+                                    "LineSpacing": 1.0,
+                                    "TextAlignment": "Left",
+                                    "TextMarker": "None",
+                                    "TextRuns": [
+                                        {
+                                            "TextRun": {
+                                                "Text": "艺术字",
+                                                "FontSize": 40.0,
+                                                "FontVariants": "Normal",
+                                                "FontStyle": "Normal",
+                                                "FontWeight": "Normal",
+                                                "FontFamily": {
+                                                    "Source": "微软雅黑"
+                                                },
+                                                "Background": {
+                                                    "ColorBrush": "#00FFFFFF"
+                                                },
+                                                "Foreground": {
+                                                    "ColorBrush": "#FF0044FF"
+                                                },
+                                                "TextEffects": [
+                                                    {
+                                                        "TextShadow": {
+                                                            "Opacity": 1.0,
+                                                            "Direction": 45.0,
+                                                            "Distance": 4.0,
+                                                            "Blur": 1.5,
+                                                            "Brush": {
+                                                                "ColorBrush": "#FF71AADC"
+                                                            }
+                                                        }
+                                                    },
+                                                    {
+                                                        "TextFill": {
+                                                            "FillBrush": {
+                                                                "ColorBrush": "#FF2E75B6"
+                                                            }
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    ],
+                                    "DefaultRunProperty": {
+                                        "TextRun": {
+                                            "FontSize": 40.0,
+                                            "FontVariants": "Normal",
+                                            "FontStyle": "Normal",
+                                            "FontWeight": "Normal",
+                                            "FontFamily": {
+                                                "Source": "微软雅黑"
+                                            },
+                                            "Background": {
+                                                "ColorBrush": "#00FFFFFF"
+                                            },
+                                            "Foreground": {
+                                                "ColorBrush": "#FF0044FF"
+                                            },
+                                            "TextEffects": [
+                                                {
+                                                    "TextShadow": {
+                                                        "Opacity": 1.0,
+                                                        "Direction": 45.0,
+                                                        "Distance": 4.0,
+                                                        "Blur": 1.5,
+                                                        "Brush": {
+                                                            "ColorBrush": "#FF71AADC"
+                                                        }
+                                                    }
+                                                },
+                                                {
+                                                    "TextFill": {
+                                                        "FillBrush": {
+                                                            "ColorBrush": "#FF2E75B6"
+                                                        }
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    "Id": "59ae2092-d9fb-407f-b5d0-9fc03d019168",
+                    "X": 345.99,
+                    "Y": 23.82,
+                    "Width": 140.0,
+                    "Height": 72.7933333333333,
+                    "Rotation": 0.0,
+                    "IsLocked": false,
+                    "CanClone": false,
+                    "HasMask": false,
+                    "RotateOrigin": "0.5,0.5"
+                }
+            },
+            {
+                "Text": {
+                    "RichText": {
+                        "Text": "艺术字",
+                        "SizeToContent": "Manual",
+                        "VerticalTextAlignment": "Top",
+                        "TextLines": [
+                            {
+                                "TextLine": {
+                                    "IndentLevel": 0.0,
+                                    "LineSpacing": 1.0,
+                                    "TextAlignment": "Left",
+                                    "TextMarker": "None",
+                                    "TextRuns": [
+                                        {
+                                            "TextRun": {
+                                                "Text": "艺术字",
+                                                "FontSize": 40.0,
+                                                "FontVariants": "Normal",
+                                                "FontStyle": "Normal",
+                                                "FontWeight": "Normal",
+                                                "FontFamily": {
+                                                    "Source": "微软雅黑"
+                                                },
+                                                "Background": {
+                                                    "ColorBrush": "#00FFFFFF"
+                                                },
+                                                "Foreground": {
+                                                    "ColorBrush": "#FF0044FF"
+                                                },
+                                                "TextEffects": [
+                                                    {
+                                                        "TextFill": {
+                                                            "FillBrush": {
+                                                                "ColorBrush": "#FF333333"
+                                                            }
+                                                        }
+                                                    },
+                                                    {
+                                                        "TextShadow": {
+                                                            "Opacity": 0.4,
+                                                            "Direction": 40.0,
+                                                            "Distance": 4.0,
+                                                            "Blur": 2.6,
+                                                            "Brush": {
+                                                                "ColorBrush": "#FF333333"
+                                                            }
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    ],
+                                    "DefaultRunProperty": {
+                                        "TextRun": {
+                                            "FontSize": 40.0,
+                                            "FontVariants": "Normal",
+                                            "FontStyle": "Normal",
+                                            "FontWeight": "Normal",
+                                            "FontFamily": {
+                                                "Source": "微软雅黑"
+                                            },
+                                            "Background": {
+                                                "ColorBrush": "#00FFFFFF"
+                                            },
+                                            "Foreground": {
+                                                "ColorBrush": "#FF0044FF"
+                                            },
+                                            "TextEffects": [
+                                                {
+                                                    "TextFill": {
+                                                        "FillBrush": {
+                                                            "ColorBrush": "#FF333333"
+                                                        }
+                                                    }
+                                                },
+                                                {
+                                                    "TextShadow": {
+                                                        "Opacity": 0.4,
+                                                        "Direction": 40.0,
+                                                        "Distance": 4.0,
+                                                        "Blur": 2.6,
+                                                        "Brush": {
+                                                            "ColorBrush": "#FF333333"
+                                                        }
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    "Id": "8a8553e3-a01d-4cc9-beb0-ed1c719d3c17",
+                    "X": 505.332,
+                    "Y": 23.82,
+                    "Width": 140.0,
+                    "Height": 262.85,
+                    "Rotation": 0.0,
+                    "IsLocked": false,
+                    "CanClone": false,
+                    "HasMask": false,
+                    "RotateOrigin": "0.5,0.5"
+                }
+            },
+            {
+                "Text": {
+                    "RichText": {
+                        "Text": "艺术字",
+                        "SizeToContent": "Manual",
+                        "VerticalTextAlignment": "Top",
+                        "TextLines": [
+                            {
+                                "TextLine": {
+                                    "IndentLevel": 0.0,
+                                    "LineSpacing": 1.0,
+                                    "TextAlignment": "Left",
+                                    "TextMarker": "None",
+                                    "TextRuns": [
+                                        {
+                                            "TextRun": {
+                                                "Text": "艺术字",
+                                                "FontSize": 40.0,
+                                                "FontVariants": "Normal",
+                                                "FontStyle": "Normal",
+                                                "FontWeight": "Normal",
+                                                "FontFamily": {
+                                                    "Source": "微软雅黑"
+                                                },
+                                                "Background": {
+                                                    "ColorBrush": "#00FFFFFF"
+                                                },
+                                                "Foreground": {
+                                                    "ColorBrush": "#FF0044FF"
+                                                },
+                                                "TextEffects": [
+                                                    {
+                                                        "TextFrame": {
+                                                            "FrameOpacity": 1.0,
+                                                            "FrameThinkness": 5.0,
+                                                            "FrameBrush": {
+                                                                "ColorBrush": "#FFED7D31"
+                                                            }
+                                                        }
+                                                    },
+                                                    {
+                                                        "TextFill": {
+                                                            "FillBrush": {
+                                                                "ColorBrush": "#FFFFFFFF"
+                                                            }
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    ],
+                                    "DefaultRunProperty": {
+                                        "TextRun": {
+                                            "FontSize": 40.0,
+                                            "FontVariants": "Normal",
+                                            "FontStyle": "Normal",
+                                            "FontWeight": "Normal",
+                                            "FontFamily": {
+                                                "Source": "微软雅黑"
+                                            },
+                                            "Background": {
+                                                "ColorBrush": "#00FFFFFF"
+                                            },
+                                            "Foreground": {
+                                                "ColorBrush": "#FF0044FF"
+                                            },
+                                            "TextEffects": [
+                                                {
+                                                    "TextFrame": {
+                                                        "FrameOpacity": 1.0,
+                                                        "FrameThinkness": 5.0,
+                                                        "FrameBrush": {
+                                                            "ColorBrush": "#FFED7D31"
+                                                        }
+                                                    }
+                                                },
+                                                {
+                                                    "TextFill": {
+                                                        "FillBrush": {
+                                                            "ColorBrush": "#FFFFFFFF"
+                                                        }
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    "Id": "1be300c5-49e7-4ef5-99f1-9ecb283ebace",
+                    "X": 22.3643460172501,
+                    "Y": 83.82,
+                    "Width": 140.0,
+                    "Height": 262.85,
+                    "Rotation": 0.0,
+                    "IsLocked": false,
+                    "CanClone": false,
+                    "HasMask": false,
+                    "RotateOrigin": "0.5,0.5"
+                }
+            },
+            {
+                "Text": {
+                    "RichText": {
+                        "Text": "艺术字",
+                        "SizeToContent": "Manual",
+                        "VerticalTextAlignment": "Top",
+                        "TextLines": [
+                            {
+                                "TextLine": {
+                                    "IndentLevel": 0.0,
+                                    "LineSpacing": 1.0,
+                                    "TextAlignment": "Left",
+                                    "TextMarker": "None",
+                                    "TextRuns": [
+                                        {
+                                            "TextRun": {
+                                                "Text": "艺术字",
+                                                "FontSize": 40.0,
+                                                "FontVariants": "Normal",
+                                                "FontStyle": "Normal",
+                                                "FontWeight": "Normal",
+                                                "FontFamily": {
+                                                    "Source": "微软雅黑"
+                                                },
+                                                "Background": {
+                                                    "ColorBrush": "#00FFFFFF"
+                                                },
+                                                "Foreground": {
+                                                    "ColorBrush": "#FF0044FF"
+                                                },
+                                                "TextEffects": [
+                                                    {
+                                                        "TextFrame": {
+                                                            "FrameOpacity": 1.0,
+                                                            "FrameThinkness": 2.0,
+                                                            "FrameBrush": {
+                                                                "ColorBrush": "#FF4472C4"
+                                                            }
+                                                        }
+                                                    },
+                                                    {
+                                                        "TextFill": {
+                                                            "FillBrush": {
+                                                                "ImageBrush": {
+                                                                    "Source": "app://pack://application:,,,/EasiNote.Resources;component/Resources/ArtText/Material/material3.png",
+                                                                    "Stretch": "Fill",
+                                                                    "TileMode": "Tile",
+                                                                    "ViewboxUnits": "RelativeToBoundingBox",
+                                                                    "ViewportUnits": "Absolute",
+                                                                    "Viewbox": "0,0,1,1",
+                                                                    "Viewport": "0,0,86,50"
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    ],
+                                    "DefaultRunProperty": {
+                                        "TextRun": {
+                                            "FontSize": 40.0,
+                                            "FontVariants": "Normal",
+                                            "FontStyle": "Normal",
+                                            "FontWeight": "Normal",
+                                            "FontFamily": {
+                                                "Source": "微软雅黑"
+                                            },
+                                            "Background": {
+                                                "ColorBrush": "#00FFFFFF"
+                                            },
+                                            "Foreground": {
+                                                "ColorBrush": "#FF0044FF"
+                                            },
+                                            "TextEffects": [
+                                                {
+                                                    "TextFrame": {
+                                                        "FrameOpacity": 1.0,
+                                                        "FrameThinkness": 2.0,
+                                                        "FrameBrush": {
+                                                            "ColorBrush": "#FF4472C4"
+                                                        }
+                                                    }
+                                                },
+                                                {
+                                                    "TextFill": {
+                                                        "FillBrush": {
+                                                            "ImageBrush": {
+                                                                "Source": "app://pack://application:,,,/EasiNote.Resources;component/Resources/ArtText/Material/material3.png",
+                                                                "Stretch": "Fill",
+                                                                "TileMode": "Tile",
+                                                                "ViewboxUnits": "RelativeToBoundingBox",
+                                                                "ViewportUnits": "Absolute",
+                                                                "Viewbox": "0,0,1,1",
+                                                                "Viewport": "0,0,86,50"
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    "Id": "57ab8326-d610-43dd-8c02-4cfa888b8685",
+                    "X": 181.70634601725,
+                    "Y": 83.82,
+                    "Width": 140.0,
+                    "Height": 262.85,
+                    "Rotation": 0.0,
+                    "IsLocked": false,
+                    "CanClone": false,
+                    "HasMask": false,
+                    "RotateOrigin": "0.5,0.5"
+                }
+            },
+            {
+                "Text": {
+                    "RichText": {
+                        "Text": "艺术字",
+                        "SizeToContent": "Manual",
+                        "VerticalTextAlignment": "Top",
+                        "TextLines": [
+                            {
+                                "TextLine": {
+                                    "IndentLevel": 0.0,
+                                    "LineSpacing": 1.0,
+                                    "TextAlignment": "Left",
+                                    "TextMarker": "None",
+                                    "TextRuns": [
+                                        {
+                                            "TextRun": {
+                                                "Text": "艺术字",
+                                                "FontSize": 40.0,
+                                                "FontVariants": "Normal",
+                                                "FontStyle": "Normal",
+                                                "FontWeight": "Normal",
+                                                "FontFamily": {
+                                                    "Source": "微软雅黑"
+                                                },
+                                                "Background": {
+                                                    "ColorBrush": "#00FFFFFF"
+                                                },
+                                                "Foreground": {
+                                                    "ColorBrush": "#FF0044FF"
+                                                },
+                                                "TextEffects": [
+                                                    {
+                                                        "TextHalo": {
+                                                            "Opacity": 1.0,
+                                                            "Weight": 8.0,
+                                                            "Color": "#FF04D321"
+                                                        }
+                                                    },
+                                                    {
+                                                        "TextFill": {
+                                                            "FillBrush": {
+                                                                "ColorBrush": "#FFFFFFFF"
+                                                            }
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    ],
+                                    "DefaultRunProperty": {
+                                        "TextRun": {
+                                            "FontSize": 40.0,
+                                            "FontVariants": "Normal",
+                                            "FontStyle": "Normal",
+                                            "FontWeight": "Normal",
+                                            "FontFamily": {
+                                                "Source": "微软雅黑"
+                                            },
+                                            "Background": {
+                                                "ColorBrush": "#00FFFFFF"
+                                            },
+                                            "Foreground": {
+                                                "ColorBrush": "#FF0044FF"
+                                            },
+                                            "TextEffects": [
+                                                {
+                                                    "TextHalo": {
+                                                        "Opacity": 1.0,
+                                                        "Weight": 8.0,
+                                                        "Color": "#FF04D321"
+                                                    }
+                                                },
+                                                {
+                                                    "TextFill": {
+                                                        "FillBrush": {
+                                                            "ColorBrush": "#FFFFFFFF"
+                                                        }
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    "Id": "4133aec1-1342-431f-bcdb-5d1140e28e98",
+                    "X": 341.04834601725,
+                    "Y": 83.82,
+                    "Width": 140.0,
+                    "Height": 262.85,
+                    "Rotation": 0.0,
+                    "IsLocked": false,
+                    "CanClone": false,
+                    "HasMask": false,
+                    "RotateOrigin": "0.5,0.5"
+                }
+            },
+            {
+                "Text": {
+                    "RichText": {
+                        "Text": "艺术字",
+                        "SizeToContent": "Manual",
+                        "VerticalTextAlignment": "Top",
+                        "TextLines": [
+                            {
+                                "TextLine": {
+                                    "IndentLevel": 0.0,
+                                    "LineSpacing": 1.0,
+                                    "TextAlignment": "Left",
+                                    "TextMarker": "None",
+                                    "TextRuns": [
+                                        {
+                                            "TextRun": {
+                                                "Text": "艺术字",
+                                                "FontSize": 40.0,
+                                                "FontVariants": "Normal",
+                                                "FontStyle": "Normal",
+                                                "FontWeight": "Normal",
+                                                "FontFamily": {
+                                                    "Source": "微软雅黑"
+                                                },
+                                                "Background": {
+                                                    "ColorBrush": "#00FFFFFF"
+                                                },
+                                                "Foreground": {
+                                                    "ColorBrush": "#FF0044FF"
+                                                },
+                                                "TextEffects": [
+                                                    {
+                                                        "TextHalo": {
+                                                            "Opacity": 1.0,
+                                                            "Weight": 10.0,
+                                                            "Color": "#FF81C4FF"
+                                                        }
+                                                    },
+                                                    {
+                                                        "TextFill": {
+                                                            "FillBrush": {
+                                                                "ColorBrush": "#FFFFFFFF"
+                                                            }
+                                                        }
+                                                    },
+                                                    {
+                                                        "TextFrame": {
+                                                            "FrameOpacity": 0.5,
+                                                            "FrameThinkness": 2.5,
+                                                            "FrameBrush": {
+                                                                "ColorBrush": "#FF2E75B6"
+                                                            }
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    ],
+                                    "DefaultRunProperty": {
+                                        "TextRun": {
+                                            "FontSize": 40.0,
+                                            "FontVariants": "Normal",
+                                            "FontStyle": "Normal",
+                                            "FontWeight": "Normal",
+                                            "FontFamily": {
+                                                "Source": "微软雅黑"
+                                            },
+                                            "Background": {
+                                                "ColorBrush": "#00FFFFFF"
+                                            },
+                                            "Foreground": {
+                                                "ColorBrush": "#FF0044FF"
+                                            },
+                                            "TextEffects": [
+                                                {
+                                                    "TextHalo": {
+                                                        "Opacity": 1.0,
+                                                        "Weight": 10.0,
+                                                        "Color": "#FF81C4FF"
+                                                    }
+                                                },
+                                                {
+                                                    "TextFill": {
+                                                        "FillBrush": {
+                                                            "ColorBrush": "#FFFFFFFF"
+                                                        }
+                                                    }
+                                                },
+                                                {
+                                                    "TextFrame": {
+                                                        "FrameOpacity": 0.5,
+                                                        "FrameThinkness": 2.5,
+                                                        "FrameBrush": {
+                                                            "ColorBrush": "#FF2E75B6"
+                                                        }
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    "Id": "0e01ee6b-7d4a-4cb1-b03c-7e20b582f6ce",
+                    "X": 500.39034601725,
+                    "Y": 83.82,
+                    "Width": 140.0,
+                    "Height": 262.85,
+                    "Rotation": 0.0,
+                    "IsLocked": false,
+                    "CanClone": false,
+                    "HasMask": false,
+                    "RotateOrigin": "0.5,0.5"
+                }
+            },
+            {
+                "Text": {
+                    "RichText": {
+                        "Text": "艺术字",
+                        "SizeToContent": "Manual",
+                        "VerticalTextAlignment": "Top",
+                        "TextLines": [
+                            {
+                                "TextLine": {
+                                    "IndentLevel": 0.0,
+                                    "LineSpacing": 1.0,
+                                    "TextAlignment": "Left",
+                                    "TextMarker": "None",
+                                    "TextRuns": [
+                                        {
+                                            "TextRun": {
+                                                "Text": "艺术字",
+                                                "FontSize": 40.0,
+                                                "FontVariants": "Normal",
+                                                "FontStyle": "Normal",
+                                                "FontWeight": "Normal",
+                                                "FontFamily": {
+                                                    "Source": "微软雅黑"
+                                                },
+                                                "Background": {
+                                                    "ColorBrush": "#00FFFFFF"
+                                                },
+                                                "Foreground": {
+                                                    "ColorBrush": "#FF0044FF"
+                                                },
+                                                "TextEffects": [
+                                                    {
+                                                        "TextShadow": {
+                                                            "Opacity": 1.0,
+                                                            "Direction": 46.0,
+                                                            "Distance": 3.0,
+                                                            "Blur": 1.0,
+                                                            "Brush": {
+                                                                "ColorBrush": "#FF548235"
+                                                            }
+                                                        }
+                                                    },
+                                                    {
+                                                        "TextFrame": {
+                                                            "FrameOpacity": 1.0,
+                                                            "FrameThinkness": 0.5,
+                                                            "FrameBrush": {
+                                                                "ColorBrush": "#FF548235"
+                                                            }
+                                                        }
+                                                    },
+                                                    {
+                                                        "TextFill": {
+                                                            "FillBrush": {
+                                                                "ImageBrush": {
+                                                                    "Source": "app://pack://application:,,,/EasiNote.Resources;component/Resources/ArtText/Material/material1.png",
+                                                                    "Stretch": "Fill",
+                                                                    "TileMode": "Tile",
+                                                                    "ViewboxUnits": "RelativeToBoundingBox",
+                                                                    "ViewportUnits": "Absolute",
+                                                                    "Viewbox": "0,0,1,1",
+                                                                    "Viewport": "0,0,86,50"
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    ],
+                                    "DefaultRunProperty": {
+                                        "TextRun": {
+                                            "FontSize": 40.0,
+                                            "FontVariants": "Normal",
+                                            "FontStyle": "Normal",
+                                            "FontWeight": "Normal",
+                                            "FontFamily": {
+                                                "Source": "微软雅黑"
+                                            },
+                                            "Background": {
+                                                "ColorBrush": "#00FFFFFF"
+                                            },
+                                            "Foreground": {
+                                                "ColorBrush": "#FF0044FF"
+                                            },
+                                            "TextEffects": [
+                                                {
+                                                    "TextShadow": {
+                                                        "Opacity": 1.0,
+                                                        "Direction": 46.0,
+                                                        "Distance": 3.0,
+                                                        "Blur": 1.0,
+                                                        "Brush": {
+                                                            "ColorBrush": "#FF548235"
+                                                        }
+                                                    }
+                                                },
+                                                {
+                                                    "TextFrame": {
+                                                        "FrameOpacity": 1.0,
+                                                        "FrameThinkness": 0.5,
+                                                        "FrameBrush": {
+                                                            "ColorBrush": "#FF548235"
+                                                        }
+                                                    }
+                                                },
+                                                {
+                                                    "TextFill": {
+                                                        "FillBrush": {
+                                                            "ImageBrush": {
+                                                                "Source": "app://pack://application:,,,/EasiNote.Resources;component/Resources/ArtText/Material/material1.png",
+                                                                "Stretch": "Fill",
+                                                                "TileMode": "Tile",
+                                                                "ViewboxUnits": "RelativeToBoundingBox",
+                                                                "ViewportUnits": "Absolute",
+                                                                "Viewbox": "0,0,1,1",
+                                                                "Viewport": "0,0,86,50"
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    "Id": "3d3431fe-3b4b-4233-babf-892964c24521",
+                    "X": 22.3643460172501,
+                    "Y": 148.76165398275,
+                    "Width": 140.0,
+                    "Height": 262.85,
+                    "Rotation": 0.0,
+                    "IsLocked": false,
+                    "CanClone": false,
+                    "HasMask": false,
+                    "RotateOrigin": "0.5,0.5"
+                }
+            },
+            {
+                "Text": {
+                    "RichText": {
+                        "Text": "艺术字",
+                        "SizeToContent": "Manual",
+                        "VerticalTextAlignment": "Top",
+                        "TextLines": [
+                            {
+                                "TextLine": {
+                                    "IndentLevel": 0.0,
+                                    "LineSpacing": 1.0,
+                                    "TextAlignment": "Left",
+                                    "TextMarker": "None",
+                                    "TextRuns": [
+                                        {
+                                            "TextRun": {
+                                                "Text": "艺术字",
+                                                "FontSize": 40.0,
+                                                "FontVariants": "Normal",
+                                                "FontStyle": "Normal",
+                                                "FontWeight": "Normal",
+                                                "FontFamily": {
+                                                    "Source": "微软雅黑"
+                                                },
+                                                "Background": {
+                                                    "ColorBrush": "#00FFFFFF"
+                                                },
+                                                "Foreground": {
+                                                    "ColorBrush": "#FF0044FF"
+                                                },
+                                                "TextEffects": [
+                                                    {
+                                                        "TextShadow": {
+                                                            "Opacity": 1.0,
+                                                            "Direction": 45.0,
+                                                            "Distance": 3.0,
+                                                            "Blur": 1.0,
+                                                            "Brush": {
+                                                                "ColorBrush": "#FFED7D31"
+                                                            }
+                                                        }
+                                                    },
+                                                    {
+                                                        "TextFrame": {
+                                                            "FrameOpacity": 1.0,
+                                                            "FrameThinkness": 1.6,
+                                                            "FrameBrush": {
+                                                                "ColorBrush": "#FFED7D31"
+                                                            }
+                                                        }
+                                                    },
+                                                    {
+                                                        "TextFill": {
+                                                            "FillBrush": {
+                                                                "ImageBrush": {
+                                                                    "Source": "app://pack://application:,,,/EasiNote.Resources;component/Resources/ArtText/Material/material2.png",
+                                                                    "Stretch": "Fill",
+                                                                    "TileMode": "Tile",
+                                                                    "ViewboxUnits": "RelativeToBoundingBox",
+                                                                    "ViewportUnits": "Absolute",
+                                                                    "Viewbox": "0,0,1,1",
+                                                                    "Viewport": "0,0,86,50"
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    ],
+                                    "DefaultRunProperty": {
+                                        "TextRun": {
+                                            "FontSize": 40.0,
+                                            "FontVariants": "Normal",
+                                            "FontStyle": "Normal",
+                                            "FontWeight": "Normal",
+                                            "FontFamily": {
+                                                "Source": "微软雅黑"
+                                            },
+                                            "Background": {
+                                                "ColorBrush": "#00FFFFFF"
+                                            },
+                                            "Foreground": {
+                                                "ColorBrush": "#FF0044FF"
+                                            },
+                                            "TextEffects": [
+                                                {
+                                                    "TextShadow": {
+                                                        "Opacity": 1.0,
+                                                        "Direction": 45.0,
+                                                        "Distance": 3.0,
+                                                        "Blur": 1.0,
+                                                        "Brush": {
+                                                            "ColorBrush": "#FFED7D31"
+                                                        }
+                                                    }
+                                                },
+                                                {
+                                                    "TextFrame": {
+                                                        "FrameOpacity": 1.0,
+                                                        "FrameThinkness": 1.6,
+                                                        "FrameBrush": {
+                                                            "ColorBrush": "#FFED7D31"
+                                                        }
+                                                    }
+                                                },
+                                                {
+                                                    "TextFill": {
+                                                        "FillBrush": {
+                                                            "ImageBrush": {
+                                                                "Source": "app://pack://application:,,,/EasiNote.Resources;component/Resources/ArtText/Material/material2.png",
+                                                                "Stretch": "Fill",
+                                                                "TileMode": "Tile",
+                                                                "ViewboxUnits": "RelativeToBoundingBox",
+                                                                "ViewportUnits": "Absolute",
+                                                                "Viewbox": "0,0,1,1",
+                                                                "Viewport": "0,0,86,50"
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    "Id": "616fff5f-2bd3-4c8f-a5a5-2b506b1094d0",
+                    "X": 181.70634601725,
+                    "Y": 148.76165398275,
+                    "Width": 140.0,
+                    "Height": 262.85,
+                    "Rotation": 0.0,
+                    "IsLocked": false,
+                    "CanClone": false,
+                    "HasMask": false,
+                    "RotateOrigin": "0.5,0.5"
+                }
+            },
+            {
+                "Text": {
+                    "RichText": {
+                        "Text": "艺术字",
+                        "SizeToContent": "Manual",
+                        "VerticalTextAlignment": "Top",
+                        "TextLines": [
+                            {
+                                "TextLine": {
+                                    "IndentLevel": 0.0,
+                                    "LineSpacing": 1.0,
+                                    "TextAlignment": "Left",
+                                    "TextMarker": "None",
+                                    "TextRuns": [
+                                        {
+                                            "TextRun": {
+                                                "Text": "艺",
+                                                "FontSize": 40.0,
+                                                "FontVariants": "Normal",
+                                                "FontStyle": "Normal",
+                                                "FontWeight": "Normal",
+                                                "FontFamily": {
+                                                    "Source": "微软雅黑"
+                                                },
+                                                "Background": {
+                                                    "ColorBrush": "#00FFFFFF"
+                                                },
+                                                "Foreground": {
+                                                    "ColorBrush": "#FF0044FF"
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "TextRun": {
+                                                "Text": "术",
+                                                "FontSize": 40.0,
+                                                "FontVariants": "Normal",
+                                                "FontStyle": "Normal",
+                                                "FontWeight": "Normal",
+                                                "FontFamily": {
+                                                    "Source": "微软雅黑"
+                                                },
+                                                "Background": {
+                                                    "ColorBrush": "#00FFFFFF"
+                                                },
+                                                "Foreground": {
+                                                    "ColorBrush": "#FF0044FF"
+                                                },
+                                                "TextEffects": [
+                                                    {
+                                                        "TextHalo": {
+                                                            "Opacity": 1.0,
+                                                            "Weight": 8.0,
+                                                            "Color": "#FF81C4FF"
+                                                        }
+                                                    },
+                                                    {
+                                                        "TextFill": {
+                                                            "FillBrush": {
+                                                                "ColorBrush": "#FFFFFFFF"
+                                                            }
+                                                        }
+                                                    },
+                                                    {
+                                                        "TextFrame": {
+                                                            "FrameOpacity": 0.5,
+                                                            "FrameThinkness": 2.0,
+                                                            "FrameBrush": {
+                                                                "ColorBrush": "#FF236BAD"
+                                                            }
+                                                        }
+                                                    },
+                                                    {
+                                                        "TextPerspective": {
+                                                            "Opacity": 1.0,
+                                                            "Angle": 30.0,
+                                                            "Depth": 0.3,
+                                                            "Blur": 6.0,
+                                                            "Brush": {
+                                                                "ColorBrush": "#FF236BAD"
+                                                            }
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "TextRun": {
+                                                "Text": "字",
+                                                "FontSize": 40.0,
+                                                "FontVariants": "Normal",
+                                                "FontStyle": "Normal",
+                                                "FontWeight": "Normal",
+                                                "FontFamily": {
+                                                    "Source": "微软雅黑"
+                                                },
+                                                "Background": {
+                                                    "ColorBrush": "#00FFFFFF"
+                                                },
+                                                "Foreground": {
+                                                    "ColorBrush": "#FF0044FF"
+                                                },
+                                                "TextEffects": [
+                                                    {
+                                                        "TextFill": {
+                                                            "FillBrush": {
+                                                                "ColorBrush": "#FF92D050"
+                                                            }
+                                                        }
+                                                    },
+                                                    {
+                                                        "TextFrame": {
+                                                            "FrameOpacity": 1.0,
+                                                            "FrameThinkness": 2.0,
+                                                            "FrameBrush": {
+                                                                "ColorBrush": "#FF385723"
+                                                            }
+                                                        }
+                                                    },
+                                                    {
+                                                        "TextPerspective": {
+                                                            "Opacity": 1.0,
+                                                            "Angle": -30.0,
+                                                            "Depth": 0.3,
+                                                            "Blur": 6.0,
+                                                            "Brush": {
+                                                                "ColorBrush": "#FFA9D18E"
+                                                            }
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    ],
+                                    "DefaultRunProperty": {
+                                        "TextRun": {
+                                            "FontSize": 40.0,
+                                            "FontVariants": "Normal",
+                                            "FontStyle": "Normal",
+                                            "FontWeight": "Normal",
+                                            "FontFamily": {
+                                                "Source": "微软雅黑"
+                                            },
+                                            "Background": {
+                                                "ColorBrush": "#00FFFFFF"
+                                            },
+                                            "Foreground": {
+                                                "ColorBrush": "#FF0044FF"
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    "Id": "778c685b-9afb-4d04-a9f8-5b8493bdedc8",
+                    "X": 341.04834601725,
+                    "Y": 148.76165398275,
+                    "Width": 140.0,
+                    "Height": 262.85,
+                    "Rotation": 0.0,
+                    "IsLocked": false,
+                    "CanClone": false,
+                    "HasMask": false,
+                    "RotateOrigin": "0.5,0.5"
+                }
+            },
+            {
+                "Text": {
+                    "RichText": {
+                        "Text": "艺术字",
+                        "SizeToContent": "Manual",
+                        "VerticalTextAlignment": "Top",
+                        "TextLines": [
+                            {
+                                "TextLine": {
+                                    "IndentLevel": 0.0,
+                                    "LineSpacing": 1.0,
+                                    "TextAlignment": "Left",
+                                    "TextMarker": "None",
+                                    "TextRuns": [
+                                        {
+                                            "TextRun": {
+                                                "Text": "艺术字",
+                                                "FontSize": 40.0,
+                                                "FontVariants": "Normal",
+                                                "FontStyle": "Normal",
+                                                "FontWeight": "Normal",
+                                                "FontFamily": {
+                                                    "Source": "微软雅黑"
+                                                },
+                                                "Background": {
+                                                    "ColorBrush": "#00FFFFFF"
+                                                },
+                                                "Foreground": {
+                                                    "ColorBrush": "#FF0044FF"
+                                                },
+                                                "TextEffects": [
+                                                    {
+                                                        "TextFill": {
+                                                            "FillBrush": {
+                                                                "ColorBrush": "#FF92D050"
+                                                            }
+                                                        }
+                                                    },
+                                                    {
+                                                        "TextFrame": {
+                                                            "FrameOpacity": 1.0,
+                                                            "FrameThinkness": 2.0,
+                                                            "FrameBrush": {
+                                                                "ColorBrush": "#FF385723"
+                                                            }
+                                                        }
+                                                    },
+                                                    {
+                                                        "TextPerspective": {
+                                                            "Opacity": 1.0,
+                                                            "Angle": -30.0,
+                                                            "Depth": 0.3,
+                                                            "Blur": 6.0,
+                                                            "Brush": {
+                                                                "ColorBrush": "#FFA9D18E"
+                                                            }
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    ],
+                                    "DefaultRunProperty": {
+                                        "TextRun": {
+                                            "FontSize": 40.0,
+                                            "FontVariants": "Normal",
+                                            "FontStyle": "Normal",
+                                            "FontWeight": "Normal",
+                                            "FontFamily": {
+                                                "Source": "微软雅黑"
+                                            },
+                                            "Background": {
+                                                "ColorBrush": "#00FFFFFF"
+                                            },
+                                            "Foreground": {
+                                                "ColorBrush": "#FF0044FF"
+                                            },
+                                            "TextEffects": [
+                                                {
+                                                    "TextFill": {
+                                                        "FillBrush": {
+                                                            "ColorBrush": "#FF92D050"
+                                                        }
+                                                    }
+                                                },
+                                                {
+                                                    "TextFrame": {
+                                                        "FrameOpacity": 1.0,
+                                                        "FrameThinkness": 2.0,
+                                                        "FrameBrush": {
+                                                            "ColorBrush": "#FF385723"
+                                                        }
+                                                    }
+                                                },
+                                                {
+                                                    "TextPerspective": {
+                                                        "Opacity": 1.0,
+                                                        "Angle": -30.0,
+                                                        "Depth": 0.3,
+                                                        "Blur": 6.0,
+                                                        "Brush": {
+                                                            "ColorBrush": "#FFA9D18E"
+                                                        }
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    "Id": "c3c33a6b-3a13-4453-b823-ca7ef71363e2",
+                    "X": 500.39034601725,
+                    "Y": 148.76165398275,
+                    "Width": 140.0,
+                    "Height": 262.85,
+                    "Rotation": 0.0,
+                    "IsLocked": false,
+                    "CanClone": false,
+                    "HasMask": false,
+                    "RotateOrigin": "0.5,0.5"
+                }
+            },
+            {
+                "Text": {
+                    "RichText": {
+                        "Text": "艺术字",
+                        "SizeToContent": "Manual",
+                        "VerticalTextAlignment": "Top",
+                        "TextLines": [
+                            {
+                                "TextLine": {
+                                    "IndentLevel": 0.0,
+                                    "LineSpacing": 1.0,
+                                    "TextAlignment": "Left",
+                                    "TextMarker": "None",
+                                    "TextRuns": [
+                                        {
+                                            "TextRun": {
+                                                "Text": "艺术字",
+                                                "FontSize": 40.0,
+                                                "FontVariants": "Normal",
+                                                "FontStyle": "Normal",
+                                                "FontWeight": "Normal",
+                                                "FontFamily": {
+                                                    "Source": "微软雅黑"
+                                                },
+                                                "Background": {
+                                                    "ColorBrush": "#00FFFFFF"
+                                                },
+                                                "Foreground": {
+                                                    "ColorBrush": "#FF0044FF"
+                                                },
+                                                "TextEffects": [
+                                                    {
+                                                        "TextReflection": {
+                                                            "Opacity": 1.0,
+                                                            "Depth": 0.7,
+                                                            "Distance": 5.0
+                                                        }
+                                                    },
+                                                    {
+                                                        "TextFill": {
+                                                            "FillBrush": {
+                                                                "LinearGradientBrush": {
+                                                                    "StartPoint": "0.5,0",
+                                                                    "EndPoint": "0.5,1",
+                                                                    "GradientStops": "#FF203864,0 #FF4472C4,0.5 #FF8FAADC,1"
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    ],
+                                    "DefaultRunProperty": {
+                                        "TextRun": {
+                                            "FontSize": 40.0,
+                                            "FontVariants": "Normal",
+                                            "FontStyle": "Normal",
+                                            "FontWeight": "Normal",
+                                            "FontFamily": {
+                                                "Source": "微软雅黑"
+                                            },
+                                            "Background": {
+                                                "ColorBrush": "#00FFFFFF"
+                                            },
+                                            "Foreground": {
+                                                "ColorBrush": "#FF0044FF"
+                                            },
+                                            "TextEffects": [
+                                                {
+                                                    "TextReflection": {
+                                                        "Opacity": 1.0,
+                                                        "Depth": 0.7,
+                                                        "Distance": 5.0
+                                                    }
+                                                },
+                                                {
+                                                    "TextFill": {
+                                                        "FillBrush": {
+                                                            "LinearGradientBrush": {
+                                                                "StartPoint": "0.5,0",
+                                                                "EndPoint": "0.5,1",
+                                                                "GradientStops": "#FF203864,0 #FF4472C4,0.5 #FF8FAADC,1"
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    "Id": "22b5e825-957d-4e31-870c-a0292af5abe2",
+                    "X": 22.8344965330627,
+                    "Y": 219.585262979875,
+                    "Width": 140.0,
+                    "Height": 262.85,
+                    "Rotation": 0.0,
+                    "IsLocked": false,
+                    "CanClone": false,
+                    "HasMask": false,
+                    "RotateOrigin": "0.5,0.5"
+                }
+            },
+            {
+                "Text": {
+                    "RichText": {
+                        "Text": "艺术字",
+                        "SizeToContent": "Manual",
+                        "VerticalTextAlignment": "Top",
+                        "TextLines": [
+                            {
+                                "TextLine": {
+                                    "IndentLevel": 0.0,
+                                    "LineSpacing": 1.0,
+                                    "TextAlignment": "Left",
+                                    "TextMarker": "None",
+                                    "TextRuns": [
+                                        {
+                                            "TextRun": {
+                                                "Text": "艺术字",
+                                                "FontSize": 40.0,
+                                                "FontVariants": "Normal",
+                                                "FontStyle": "Normal",
+                                                "FontWeight": "Normal",
+                                                "FontFamily": {
+                                                    "Source": "微软雅黑"
+                                                },
+                                                "Background": {
+                                                    "ColorBrush": "#00FFFFFF"
+                                                },
+                                                "Foreground": {
+                                                    "ColorBrush": "#FF0044FF"
+                                                },
+                                                "TextEffects": [
+                                                    {
+                                                        "TextFill": {
+                                                            "FillBrush": {
+                                                                "ColorBrush": "#FFED7D31"
+                                                            }
+                                                        }
+                                                    },
+                                                    {
+                                                        "TextReflection": {
+                                                            "Opacity": 0.4,
+                                                            "Depth": 0.3,
+                                                            "Distance": 8.0
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    ],
+                                    "DefaultRunProperty": {
+                                        "TextRun": {
+                                            "FontSize": 40.0,
+                                            "FontVariants": "Normal",
+                                            "FontStyle": "Normal",
+                                            "FontWeight": "Normal",
+                                            "FontFamily": {
+                                                "Source": "微软雅黑"
+                                            },
+                                            "Background": {
+                                                "ColorBrush": "#00FFFFFF"
+                                            },
+                                            "Foreground": {
+                                                "ColorBrush": "#FF0044FF"
+                                            },
+                                            "TextEffects": [
+                                                {
+                                                    "TextFill": {
+                                                        "FillBrush": {
+                                                            "ColorBrush": "#FFED7D31"
+                                                        }
+                                                    }
+                                                },
+                                                {
+                                                    "TextReflection": {
+                                                        "Opacity": 0.4,
+                                                        "Depth": 0.3,
+                                                        "Distance": 8.0
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    "Id": "107894fe-68cb-41d3-b101-ac39a0191e37",
+                    "X": 182.176496533063,
+                    "Y": 219.585262979875,
+                    "Width": 140.0,
+                    "Height": 72.7933333333333,
+                    "Rotation": 0.0,
+                    "IsLocked": false,
+                    "CanClone": false,
+                    "HasMask": false,
+                    "RotateOrigin": "0.5,0.5"
+                }
+            },
+            {
+                "Text": {
+                    "RichText": {
+                        "Text": "艺术字",
+                        "SizeToContent": "Manual",
+                        "VerticalTextAlignment": "Top",
+                        "TextLines": [
+                            {
+                                "TextLine": {
+                                    "IndentLevel": 0.0,
+                                    "LineSpacing": 1.0,
+                                    "TextAlignment": "Left",
+                                    "TextMarker": "None",
+                                    "TextRuns": [
+                                        {
+                                            "TextRun": {
+                                                "Text": "艺术字",
+                                                "FontSize": 40.0,
+                                                "FontVariants": "Normal",
+                                                "FontStyle": "Normal",
+                                                "FontWeight": "Normal",
+                                                "FontFamily": {
+                                                    "Source": "微软雅黑"
+                                                },
+                                                "Background": {
+                                                    "ColorBrush": "#00FFFFFF"
+                                                },
+                                                "Foreground": {
+                                                    "ColorBrush": "#FF0044FF"
+                                                },
+                                                "TextEffects": [
+                                                    {
+                                                        "TextFrame": {
+                                                            "FrameOpacity": 1.0,
+                                                            "FrameThinkness": 1.0,
+                                                            "FrameBrush": {
+                                                                "ColorBrush": "#FFFFC000"
+                                                            }
+                                                        }
+                                                    },
+                                                    {
+                                                        "TextFill": {
+                                                            "FillBrush": {
+                                                                "LinearGradientBrush": {
+                                                                    "StartPoint": "0.5,0",
+                                                                    "EndPoint": "0.5,1",
+                                                                    "GradientStops": "#FFFFC000,0 #FFFFD966,0.5 #FFFFF2CC,1"
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    ],
+                                    "DefaultRunProperty": {
+                                        "TextRun": {
+                                            "FontSize": 40.0,
+                                            "FontVariants": "Normal",
+                                            "FontStyle": "Normal",
+                                            "FontWeight": "Normal",
+                                            "FontFamily": {
+                                                "Source": "微软雅黑"
+                                            },
+                                            "Background": {
+                                                "ColorBrush": "#00FFFFFF"
+                                            },
+                                            "Foreground": {
+                                                "ColorBrush": "#FF0044FF"
+                                            },
+                                            "TextEffects": [
+                                                {
+                                                    "TextFrame": {
+                                                        "FrameOpacity": 1.0,
+                                                        "FrameThinkness": 1.0,
+                                                        "FrameBrush": {
+                                                            "ColorBrush": "#FFFFC000"
+                                                        }
+                                                    }
+                                                },
+                                                {
+                                                    "TextFill": {
+                                                        "FillBrush": {
+                                                            "LinearGradientBrush": {
+                                                                "StartPoint": "0.5,0",
+                                                                "EndPoint": "0.5,1",
+                                                                "GradientStops": "#FFFFC000,0 #FFFFD966,0.5 #FFFFF2CC,1"
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    "Id": "97bccd6e-2118-4a1e-bd93-3fd1a032b49d",
+                    "X": 341.518496533063,
+                    "Y": 219.585262979875,
+                    "Width": 140.0,
+                    "Height": 262.85,
+                    "Rotation": 0.0,
+                    "IsLocked": false,
+                    "CanClone": false,
+                    "HasMask": false,
+                    "RotateOrigin": "0.5,0.5"
+                }
+            },
+            {
+                "Text": {
+                    "RichText": {
+                        "Text": "艺术字",
+                        "SizeToContent": "Manual",
+                        "VerticalTextAlignment": "Top",
+                        "TextLines": [
+                            {
+                                "TextLine": {
+                                    "IndentLevel": 0.0,
+                                    "LineSpacing": 1.0,
+                                    "TextAlignment": "Left",
+                                    "TextMarker": "None",
+                                    "TextRuns": [
+                                        {
+                                            "TextRun": {
+                                                "Text": "艺术字",
+                                                "FontSize": 40.0,
+                                                "FontVariants": "Normal",
+                                                "FontStyle": "Normal",
+                                                "FontWeight": "Normal",
+                                                "FontFamily": {
+                                                    "Source": "微软雅黑"
+                                                },
+                                                "Background": {
+                                                    "ColorBrush": "#00FFFFFF"
+                                                },
+                                                "Foreground": {
+                                                    "ColorBrush": "#FF0044FF"
+                                                },
+                                                "TextEffects": [
+                                                    {
+                                                        "TextFrame": {
+                                                            "FrameOpacity": 1.0,
+                                                            "FrameThinkness": 2.0,
+                                                            "FrameBrush": {
+                                                                "ColorBrush": "#FF92D050"
+                                                            }
+                                                        }
+                                                    },
+                                                    {
+                                                        "TextFill": {
+                                                            "FillBrush": {
+                                                                "LinearGradientBrush": {
+                                                                    "StartPoint": "0.5,0",
+                                                                    "EndPoint": "0.5,1",
+                                                                    "GradientStops": "#FF70AD47,0 #FF70AD47,0.5 #FFE2F0D9,1"
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    ],
+                                    "DefaultRunProperty": {
+                                        "TextRun": {
+                                            "FontSize": 40.0,
+                                            "FontVariants": "Normal",
+                                            "FontStyle": "Normal",
+                                            "FontWeight": "Normal",
+                                            "FontFamily": {
+                                                "Source": "微软雅黑"
+                                            },
+                                            "Background": {
+                                                "ColorBrush": "#00FFFFFF"
+                                            },
+                                            "Foreground": {
+                                                "ColorBrush": "#FF0044FF"
+                                            },
+                                            "TextEffects": [
+                                                {
+                                                    "TextFrame": {
+                                                        "FrameOpacity": 1.0,
+                                                        "FrameThinkness": 2.0,
+                                                        "FrameBrush": {
+                                                            "ColorBrush": "#FF92D050"
+                                                        }
+                                                    }
+                                                },
+                                                {
+                                                    "TextFill": {
+                                                        "FillBrush": {
+                                                            "LinearGradientBrush": {
+                                                                "StartPoint": "0.5,0",
+                                                                "EndPoint": "0.5,1",
+                                                                "GradientStops": "#FF70AD47,0 #FF70AD47,0.5 #FFE2F0D9,1"
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    "Id": "af9f9f93-c720-4fb5-b2ac-5b349decbf73",
+                    "X": 500.860496533063,
+                    "Y": 219.585262979875,
+                    "Width": 140.0,
+                    "Height": 262.85,
+                    "Rotation": 0.0,
+                    "IsLocked": false,
+                    "CanClone": false,
+                    "HasMask": false,
+                    "RotateOrigin": "0.5,0.5"
+                }
+            }
+        ]
+    }
+}

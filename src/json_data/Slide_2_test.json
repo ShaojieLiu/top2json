@@ -1,0 +1,78 @@
+{
+        "Id": "ea8d9ee2a67747188119e7ea984c3e4c",
+        "Width": 1280.0,
+        "Height": 720.0,
+        "Background": {
+            "ColorBrush": "#FFFFFFFF"
+        },
+        "Elements": [
+            {
+                "Video": {
+                    "MediaName": "Wildlife.wmv",
+                    "Source": "id://68a16e15-a195-42f6-b704-63a7a657d996",
+                    "Id": "638b8cb0de8d4a47a7311bca8790ad80",
+                    "X": 49.0,
+                    "Y": 30.0,
+                    "Width": 600.0,
+                    "Height": 337.5,
+                    "Rotation": 0.0,
+                    "IsLocked": false,
+                    "CanClone": false,
+                    "HasMask": false,
+                    "ElementBehavior": {
+                        "IsLoopPlay": false,
+                        "IsAutoPlay": false,
+                        "IsCrossSlidePlay": false,
+                        "StopPlayPageNumber": 0
+                    },
+                    "RotateOrigin": "0.5,0.5"
+                }
+            },
+            {
+                "Audio": {
+                    "MediaName": "Maid with the Flaxen Hair.mp3",
+                    "Source": "id://1289bafe-1ac1-43e7-9649-ae3082020521",
+                    "Id": "7e5decff0d6340988e9905bea4900309",
+                    "X": 737.5,
+                    "Y": 43.0,
+                    "Width": 111.0,
+                    "Height": 64.0,
+                    "Rotation": 0.0,
+                    "IsLocked": false,
+                    "CanClone": false,
+                    "HasMask": false,
+                    "ElementBehavior": {
+                        "IsLoopPlay": false,
+                        "IsAutoPlay": false,
+                        "IsCrossSlidePlay": false,
+                        "StopPlayPageNumber": 0
+                    },
+                    "RotateOrigin": "0.5,0.5"
+                }
+            },
+            {
+                "Picture": {
+                    "Source": "id://b8a68e1e-fcb5-44bb-804d-0f6433c8a979",
+                    "PictureName": "Hydrangeas.jpg",
+                    "Alpha": 1.0,
+                    "DisplayRegion": {
+                        "Rectangle": "0,0,768,1024"
+                    },
+                    "Style": {
+                        "StyleType": "None"
+                    },
+                    "Id": "c56f6386f6764ec894ae086f7f22ec65",
+                    "X": 675.167,
+                    "Y": 261.0,
+                    "Width": 569.33,
+                    "Height": 427.0,
+                    "Rotation": 0.0,
+                    "IsLocked": false,
+                    "CanClone": false,
+                    "HasMask": false,
+                    "RotateOrigin": "0.5,0.5"
+                }
+            }
+        ]
+
+}
