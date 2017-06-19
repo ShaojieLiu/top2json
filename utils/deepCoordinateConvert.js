@@ -3,7 +3,7 @@
  */
 
 let deepCoordinateConvert = function(slide, browserSize) {
-    console.log('deepCoordinateConvert begin')
+    // console.log('deepCoordinateConvert begin')
 
     if (slide && browserSize) {
         let w = browserSize.browserWidth,
@@ -16,7 +16,7 @@ let deepCoordinateConvert = function(slide, browserSize) {
                 X: (val) => (val / slideW * w).toFixed(2),
                 Y: (val) => (val / slideH * h).toFixed(2),
             }
-        console.log(Object.keys(processDict))
+        // console.log(Object.keys(processDict))
 
         let subConvert = function(object) {
 
@@ -25,8 +25,10 @@ let deepCoordinateConvert = function(slide, browserSize) {
                 if (object.hasOwnProperty(property) && (object[property] !== undefined)) {
                     let sub = object[property],
                         className = sub.__proto__.constructor.saveName
-
-                    if (typeof sub === 'object') {
+                        // console.log(property)
+                    if (property === 'RotateOrigin') {
+                        return false
+                    } else if (typeof sub === 'object') {
                         // console.log('---------------------oneMoreTime')
                         subConvert(sub)
                     } else if (Object.keys(processDict).includes(property)) {

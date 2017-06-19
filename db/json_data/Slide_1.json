@@ -318,58 +318,6 @@
                     "HasMask": false,
                     "RotateOrigin": "0.5,0.5"
                 }
-            },
-            {
-                "Shape": {
-                    "Geometry": {
-                        "CustomGeometry": {
-                            "GeometryType": "FreeShape",
-                            "Path": "M124,89L75,186Q17,145 75,186 133,227 102,284L41,291Q0,340,73,331C146,322 118,506 146,322 174,138 223,232 232,269 241,306 306,246 264,210 222,174 171,204 179,102 187,0 140,58 124,89z"
-                        }
-                    },
-                    "Background": {
-                        "ColorBrush": "#FF5C81CC"
-                    },
-                    "Foreground": {
-                        "ColorBrush": "#FFFF0000"
-                    },
-                    "Thickness": 7.0,
-                    "LineType": "Dash",
-                    "Opacity": 1.0,
-                    "ControlPoints": [
-                        {
-                            "Item": "3"
-                        },
-                        {
-                            "Item": "8"
-                        },
-                        {
-                            "Item": "11"
-                        },
-                        {
-                            "Item": "14"
-                        },
-                        {
-                            "Item": "17"
-                        },
-                        {
-                            "Item": "20"
-                        },
-                        {
-                            "Item": "0"
-                        }
-                    ],
-                    "Id": "9ce0099b16b543d1b1b836ee802fa7fc",
-                    "X": 647.34,
-                    "Y": 210.294,
-                    "Width": 251.749329251601,
-                    "Height": 359.820892331313,
-                    "Rotation": 0.0,
-                    "IsLocked": false,
-                    "CanClone": false,
-                    "HasMask": false,
-                    "RotateOrigin": "0.5,0.5"
-                }
             }
         ]
     }
