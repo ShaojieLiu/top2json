@@ -24,7 +24,7 @@ let preProcess = (path) => {
     log('\ndebug ElementType : \n', slide.Elements.map((ele, key) => ele.ElementType))
 
     deepColorConvert(slide)
-    deepCoordinateConvert(slide, {browserWidth: 1366, browserHeight: 768})
+    deepCoordinateConvert(slide, {browserWidth: 640, browserHeight: 480})
 
     // log('\n debug slide : \n', JSON.stringify(slide, null, 4))
     return slide

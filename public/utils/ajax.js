@@ -1,0 +1,34 @@
+/**
+ * Created by liushaojie on 2017/6/19.
+ */
+
+var defaultFail = (status) => {
+    log('\najax fail', status)
+}
+
+var getAjax = function(path, success, fail=defaultFail) {
+    var request = new XMLHttpRequest(); // 新建XMLHttpRequest对象
+
+    request.onreadystatechange = function () { // 状态发生变化时，函数被回调
+        if (request.readyState === 4) { // 成功完成
+            // 判断响应结果:
+            if (request.status === 200) {
+                // 成功，通过responseText拿到响应的文本:
+                return success(request.responseText);
+            } else {
+                // 失败，根据响应码判断失败原因:
+                return fail(request.status);
+            }
+        } else {
+            // HTTP请求还在继续...
+        }
+    }
+
+// 发送请求:
+    request.open('GET', path);
+    request.send();
+
+// alert('请求已发送，请等待响应...');
+}
+
+// log('nice!')

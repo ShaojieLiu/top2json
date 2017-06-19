@@ -5,6 +5,16 @@
     <title>Title</title>
 </head>
 <body>
+    <div class="main"></div>
+
+<script>
+    var e = function(sel) {return document.querySelector(sel)}
+    var es = function(sel) {return Array.from(document.querySelectorAll(sel))}
+    var log = function(...arg) {console.log.apply(console, arg)}
+</script>
+<script src="https://cdn.bootcss.com/pixi.js/4.5.3/pixi.min.js"></script>
+<script src="./static?file=utils/ajax.js"></script>
+<script src="./static?file=index.js"></script>
 
 </body>
 </html>

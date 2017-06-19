@@ -11,10 +11,10 @@ let deepCoordinateConvert = function(slide, browserSize) {
             slideW = slide.Width,
             slideH = slide.Height,
             processDict = {
-                Width: (val) => (val / slideW * w).toFixed(2),
-                Height: (val) => (val / slideH * h).toFixed(2),
-                X: (val) => (val / slideW * w).toFixed(2),
-                Y: (val) => (val / slideH * h).toFixed(2),
+                Width: (val) => Number((val / slideW * w).toFixed(2)),
+                Height: (val) => Number((val / slideH * h).toFixed(2)),
+                X: (val) => Number((val / slideW * w).toFixed(2)),
+                Y: (val) => Number((val / slideH * h).toFixed(2)),
             }
         // console.log(Object.keys(processDict))
 

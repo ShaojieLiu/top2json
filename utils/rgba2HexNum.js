@@ -14,7 +14,7 @@ let rgba2HexNum = function(rgbaStr) {
 
     if (str.startsWith(head)) {
         let colorArr = str.split(head)[1].split(')')[0].split(',').map((ele) => ele.trim())
-        result.alpha = colorArr.pop()
+        result.alpha = Number(colorArr.pop())
         let hex = '0x' + colorArr.map((value) => str2hex(value)).join('')
         result.hex = Number(hex)
     } else {
