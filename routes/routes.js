@@ -3,7 +3,7 @@
  */
 
 const fs = require('fs')
-const preProcess = require('./utils/preProcess.js')
+const preProcess = require('../utils/preProcess.js')
 
 const headerFromMapper = (mapper={}) => {
     let base = 'HTTP/1.1 200 OK\r\n'
@@ -18,9 +18,11 @@ const headerFromMapper = (mapper={}) => {
     return header
 }
 
-const slides = () => {
-    let slidePath = "/db/json_data/Slide_1.json"
-    let slide = preProcess(slidePath)
+const slides = (request) => {
+    // console.log('debug size', request.query.windowSize)
+    let slidePath = request.query.slidePath || "/db/json_data/Slide_1.json"
+    let windowSize = {w:request.query.w, h:request.query.h} || {w:800, h:640}
+    let slide = preProcess(slidePath, windowSize)
     // log('\n debug slide : \n', JSON.stringify(slide, null, 4))
     const header = 'HTTP/1.1 200 OK\r\nContent-Type: text/slide\r\n'
     const r = header + '\r\n' + JSON.stringify(slide, null, 4)

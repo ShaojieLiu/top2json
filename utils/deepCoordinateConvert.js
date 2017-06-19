@@ -6,8 +6,8 @@ let deepCoordinateConvert = function(slide, browserSize) {
     // console.log('deepCoordinateConvert begin')
 
     if (slide && browserSize) {
-        let w = browserSize.browserWidth,
-            h = browserSize.browserHeight,
+        let w = browserSize.w,
+            h = browserSize.h,
             slideW = slide.Width,
             slideH = slide.Height,
             processDict = {

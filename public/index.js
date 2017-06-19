@@ -3,14 +3,14 @@
  */
 log('hello')
 
-var backGroundColor = (obj) => obj.Background.Color.hex
-var backGroundAlpha = (obj) => obj.Background.Color.alpha
+var backgroundColor = (obj) => obj.Background.Color.hex
+var backgroundAlpha = (obj) => obj.Background.Color.alpha
 
 var pixiEle = (ele) => {
     var Shape = function(ele) {
         var rect = new PIXI.Graphics(),
-            color = backGroundColor(ele),
-            alpha = backGroundAlpha(ele),
+            color = backgroundColor(ele),
+            alpha = backgroundAlpha(ele),
             w = ele.Width,
             h = ele.Height
 
@@ -45,7 +45,7 @@ var render = function(slideObj) {
         w = slideObj.Width,
         elements = slideObj.Elements
 
-    var renderer = new PIXI.CanvasRenderer(w, h, {background: backGroundColor(slideObj)})
+    var renderer = new PIXI.CanvasRenderer(w, h, {backgroundColor: backgroundColor(slideObj)})
     var stage = new PIXI.Container()
 
     var eleArr = elements.map(pixiEle)
@@ -65,4 +65,11 @@ var slideResponse = function(data) {
     render(slideObj)
 }
 
-getAjax('/slides', slideResponse)
+// var windowSize = 'w=' + window.screen.width + '&' + 'h=' + window.screen.height
+var windowSize = 'w=960&h=540'
+log('windowSize', windowSize)
+var slidePath = '/db/json_data/Slide_1.json'
+var url = '/slides' + '?' + windowSize +
+    '&' + 'slidePath=' + slidePath
+
+getAjax(url, slideResponse)

@@ -4,8 +4,8 @@
 
 const net = require('net')
 const fs = require('fs')
-const routeMapper = require('./routes')
-const Request = require('./request')
+const routeMapper = require('./routes/routes')
+const Request = require('./models/request')
 let { log } = require('./utils/utils.js')
 
 const error = (code=404) => {
