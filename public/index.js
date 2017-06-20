@@ -1,7 +1,6 @@
 /**
  * Created by liushaojie on 2017/6/19.
  */
-log('hello')
 
 var backgroundColor = (obj) => obj.Background.Color.hex
 var backgroundAlpha = (obj) => obj.Background.Color.alpha
@@ -68,7 +67,7 @@ var slideResponse = function(data) {
 // var windowSize = 'w=' + window.screen.width + '&' + 'h=' + window.screen.height
 var windowSize = 'w=960&h=540'
 log('windowSize', windowSize)
-var slidePath = '/db/json_data/Slide_1.json'
+var slidePath = '/db/json_data1/Slide_0.json'
 var url = '/slides' + '?' + windowSize +
     '&' + 'slidePath=' + slidePath
 

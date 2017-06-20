@@ -23,6 +23,7 @@ let preProcess = (path, windowSize) => {
     // log('debug slide : \n', slide.Elements.map((ele, key) => ele.__proto__.constructor.saveName))
     addElementType(slide)
     log('\ndebug ElementType : \n', slide.Elements.map((ele, key) => ele.ElementType))
+    log('\ndebug GeometryType : \n', slide.Elements.map((ele, key) => ele.Geometry.GeometryType))
 
     deepColorConvert(slide)
     deepCoordinateConvert(slide, windowSize)
