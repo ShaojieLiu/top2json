@@ -1,4 +1,5 @@
-let tm = require("topmodel4ts");
+// let tm = require("topmodel4ts"); // 这个是旧版本
+let tm = require("@cvte/paint.storage");
 let addElementType = require('./addElementType.js')
 let deepColorConvert = require('./deepColorConvert.js')
 let deepCoordinateConvert = require('./deepCoordinateConvert.js')
@@ -8,6 +9,7 @@ let { log } = require('./utils.js')
 // 演示如何将 json 字符串转换为 Slide 对象
 // 并将 slide 对象里的颜色值替换为 {alpha, hex}
 let preProcess = (path, windowSize) => {
+    // log('\ntm', tm)
     // log('debug size', windowSize)
     // log(process.cwd())
     let data = require(process.cwd()+path);

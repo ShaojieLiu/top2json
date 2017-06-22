@@ -77,8 +77,7 @@ const responseFor = (raw, request) => {
     // 获取 response 函数
     const response = routes[r.path] || error
     // 将 request 作为 response 的参数传出去, 这样每一个 response 都可以与对应的 request 挂钩
-    const resp = response(request)
-    return resp
+    return response(request)
 }
 // 指定了默认的 host 和 port, 因为用的是默认参数, 当然可以在调用的时候传其他的值
 const run = (host='', port=4000) => {
