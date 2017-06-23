@@ -2,6 +2,10 @@
     margin: 0;
     padding: 0;
 }
-canvas{
-    outline: 1px dashed hotpink;
+.main{
+    position: absolute;
+    display: inline-block;
 }
+/*canvas{*/
+    /*outline: 1px dashed hotpink;*/
+/*}*/
