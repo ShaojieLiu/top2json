@@ -2,41 +2,59 @@
  * Created by liushaojie on 2017/6/22.
  */
 
-var backgroundColor = (ele) => ele.Background.Color.hex
-var backgroundAlpha = (ele) => ele.Background.Color.alpha
-var foregroundColor = (ele) => ele.Foreground.Color.hex
-var foregroundAlpha = (ele) => ele.Foreground.Color.alpha
-var getLineStyle = (ele) => {return {
-    thickness: Number(ele.Thickness),
-    color: foregroundColor(ele),
-    alpha: foregroundAlpha(ele)
-}}
+class PixiEle {
+    constructor(ele={}) {
+        this.id = ele.Id
+        this.elementType = ele.ElementType
+        this.w = ele.Width || 43
+        this.h = ele.Height || 43
+        this.backgroundColor = ele.Background.Color.hex
+        this.backgroundAlpha = ele.Background.Color.alpha
+        // this.foregroundColor = ele.Foreground.Color.hex
+        // this.foregroundAlpha = ele.Foreground.Color.alpha
+        this.lineStyle = {
+            thickness: Number(ele.Thickness),
+            color: ele.Foreground.Color.hex,
+            alpha: ele.Foreground.Color.alpha
+        }
+        this.strokeW = Number(ele.Thickness)
+        this.positionPara = {
+            position: 'absolute',
+            left: ele.X - this.strokeW + 'px',
+            top: ele.Y - this.strokeW + 'px',
+            transform: 'rotate(' + ele.Rotation + 'deg)'
+        }
+    }
+}
 
-var pixiEle = (ele) => {
-    var w = ele.Width,
-        h = ele.Height
+class ShapeEle extends PixiEle {
+    constructor(ele={}) {
+        super(ele)
+        this.geometryType = ele.Geometry.GeometryType
+        this.renderer = new PIXI.CanvasRenderer(
+            this.w + 2 * this.strokeW, this.h + 2 * this.strokeW, {transparent: true})
+        this.stage = new PIXI.Container()
+    }
 
-    var Shape = function(ele) {
+    domify(ele) {
+        var w = this.w,
+            h = this.h
+
         var getBasicGraph = (ele) => {
-
             var graph = new PIXI.Graphics(),
-                fillColor = backgroundColor(ele),
-                lineStyle = getLineStyle(ele),
-                alpha = backgroundAlpha(ele),
-                strokeW = getLineStyle(ele).thickness,
-                w = ele.Width,
-                h = ele.Height
+                fillColor = this.backgroundColor,
+                lineStyle = this.lineStyle,
+                alpha = this.backgroundAlpha,
+                strokeW = this.strokeW
 
-            // graph.pivot = new PIXI.Point(w/2, h/2)
-            // graph.position = new PIXI.Point(ele.X+w/2, ele.Y+h/2)
-            // graph.rotation = ele.Rotation / 180 * 3.14
             graph.beginFill(fillColor, alpha)
             graph.lineStyle(lineStyle.thickness, lineStyle.color, lineStyle.alpha)
             graph.interactive = true
             graph.cursor = 'pointer'
-            graph.position = new PIXI.Point(strokeW/2, strokeW/2)
+            graph.position = new PIXI.Point(strokeW, strokeW)
             return graph
         }
+
         var graph = getBasicGraph(ele),
             adjPoint = function(pointNum, axis) {
                 var axisDict = {
@@ -62,14 +80,14 @@ var pixiEle = (ele) => {
 
         var lineArrowEnd = function(ele) {
             var len = Number(ele.Thickness) * 5,
-                theta = Math.atan2(-(adjPoint(1, 'y') + adjPoint(0, 'y')) , (adjPoint(1, 'x') - adjPoint(1, 'x')))
+                theta = Math.atan2((adjPoint(1, 'y') - adjPoint(0, 'y')) , (adjPoint(1, 'x') - adjPoint(0, 'x')))
 
             var path = [
                 adjPoint(0, 'x'), adjPoint(0, 'y'),
                 adjPoint(1, 'x'), adjPoint(1, 'y'),
-                adjPoint(1, 'x') - len * Math.cos(0.785 - theta), adjPoint(1, 'y') - len * Math.sin(0.785 - theta),
+                adjPoint(1, 'x') - len * Math.cos(0.5 - theta), adjPoint(1, 'y') - len * Math.sin(0.5 - theta),
                 adjPoint(1, 'x'), adjPoint(1, 'y'),
-                adjPoint(1, 'x') - len * Math.cos(0.785 + theta), adjPoint(1, 'y') - len * Math.sin(0.785 + theta),
+                adjPoint(1, 'x') - len * Math.cos(0.5 + theta), adjPoint(1, 'y') - len * Math.sin(0.5 + theta),
                 adjPoint(1, 'x'), adjPoint(1, 'y')
             ]
             log('path', theta, path)
@@ -282,7 +300,7 @@ var pixiEle = (ele) => {
                 eleM[1] = ele[1]
                 return eleM
             }).reverse()
-            points = startP.concat(p, midP, pMirror)
+            var points = startP.concat(p, midP, pMirror)
             var path = []
             points.forEach(function(ele) {
                 path.push(...ele)
@@ -353,7 +371,7 @@ var pixiEle = (ele) => {
 
         var geometryTypeDict = {
             "Line": line,
-            "LineArrowEnd": line,
+            "LineArrowEnd": lineArrowEnd,
             "LineArrowStartEnd": line,
             "Rectangle": rectangle,
             "RoundRectangle": roundRectangle,
@@ -372,36 +390,62 @@ var pixiEle = (ele) => {
             "Star": star,
             "Bracket": bracket,
             "Brace": brace,
-            "Flag": flag
+            "Flag": flag,
+            // "FreeShape": rectangle
         }
 
-        return geometryTypeDict[ele.Geometry.GeometryType](ele)
-    }
+        var resp = geometryTypeDict[this.geometryType] || rectangle
+        var pixiObj = resp(ele)
+        this.stage.addChild(pixiObj)
+        this.renderer.render(this.stage)
 
-    var eleTypeDict = {
-        'Shape': Shape,
+        return this.renderer.view
     }
-
-    // log(ele.ElementType)
-    var resp = eleTypeDict[ele.ElementType]
-    var pixiObj = resp(ele),
-        strokeW = getLineStyle(ele).thickness,
-        renderer = new PIXI.CanvasRenderer(w + strokeW, h + strokeW, {transparent: true}),
-        stage = new PIXI.Container()
-    // graph.pivot = new PIXI.Point(w/2, h/2)
-    // graph.position = new PIXI.Point(ele.X+w/2, ele.Y+h/2)
-    // graph.rotation = ele.Rotation / 180 * 3.14
-    stage.addChild(pixiObj)
-    renderer.render(stage)
-    var para = {
-        position: 'absolute',
-        left: ele.X - strokeW / 2 + 'px',
-        top: ele.Y - strokeW / 2 + 'px',
-        transform: 'rotate(' + ele.Rotation + 'deg)'
-    }
-    Object.assign(renderer.view.style, para)
-    renderer.view.id = ele.Id
-
-    return renderer
 }
 
+var htmlEle = function(ele) {
+    var eleTypeDict = {
+        'Shape': ShapeEle,
+    }
+    var instance = new eleTypeDict[ele.ElementType](ele)
+    dom = instance.domify(ele)
+    Object.assign(dom.style, instance.positionPara)
+    dom.id = this.id
+
+    var div = document.createElement('div')
+    div.appendChild(dom)
+
+    return div
+}
+
+class SlideEle {
+    constructor(slideObj={}) {
+        this.h = slideObj.Height
+        this.w = slideObj.Width
+        this.backgroundColor = slideObj.Background.Color.hex
+        this.elements = slideObj.Elements
+
+        this.renderer = new PIXI.CanvasRenderer(this.w, this.h, {backgroundColor: this.backgroundColor})
+        this.stage = new PIXI.Container()
+    }
+
+    drawBG(slideObj={}) {
+        this.renderer.render(this.stage)
+        e('.main').appendChild(this.renderer.view)
+    }
+
+    drawAll(slideObj={}) {
+        var eleArr = this.elements.map(htmlEle)
+        eleArr.forEach(function(div, index) {
+            e('.main').appendChild(div)
+        })
+    }
+
+    stepNext(slideObj={}) {
+
+    }
+
+    stepPrev(slideObj={}) {
+
+    }
+}

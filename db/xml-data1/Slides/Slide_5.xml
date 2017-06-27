@@ -1,0 +1,58 @@
+﻿<Slide>
+  <Id>0b1c5117bbfe48d09d9371c522e49474</Id>
+  <Width>1280</Width>
+  <Height>720</Height>
+  <Background>
+    <ColorBrush>#FFFFFFFF</ColorBrush>
+  </Background>
+  <Elements>
+    <MathFormula>
+      <Foreground>
+        <ColorBrush>#FF000000</ColorBrush>
+      </Foreground>
+      <MathML>&lt;?xml version="1.0" encoding="utf-8"?&gt;&lt;math xmlns="http://www.w3.org/1998/Math/MathML"&gt;&lt;mrow&gt;&lt;mfrac&gt;&lt;mrow&gt;&lt;mi&gt;a&lt;/mi&gt;&lt;/mrow&gt;&lt;mrow&gt;&lt;mi&gt;b&lt;/mi&gt;&lt;/mrow&gt;&lt;/mfrac&gt;&lt;mrow&gt;&lt;mi&gt;c&lt;/mi&gt;&lt;/mrow&gt;&lt;mfrac&gt;&lt;mrow&gt;&lt;mi&gt;d&lt;/mi&gt;&lt;/mrow&gt;&lt;mrow&gt;&lt;mi&gt;e&lt;/mi&gt;&lt;/mrow&gt;&lt;/mfrac&gt;&lt;msqrt&gt;&lt;mrow&gt;&lt;mi&gt;f&lt;/mi&gt;&lt;/mrow&gt;&lt;/msqrt&gt;&lt;mroot&gt;&lt;mrow&gt;&lt;mi&gt;g&lt;/mi&gt;&lt;/mrow&gt;&lt;mrow&gt;&lt;mi&gt;h&lt;/mi&gt;&lt;/mrow&gt;&lt;/mroot&gt;&lt;msup&gt;&lt;mrow&gt;&lt;mi&gt;i&lt;/mi&gt;&lt;/mrow&gt;&lt;mrow&gt;&lt;mi&gt;j&lt;/mi&gt;&lt;/mrow&gt;&lt;/msup&gt;&lt;msub&gt;&lt;mrow&gt;&lt;mi&gt;k&lt;/mi&gt;&lt;/mrow&gt;&lt;mrow&gt;&lt;mi&gt;l&lt;/mi&gt;&lt;/mrow&gt;&lt;/msub&gt;&lt;mover&gt;&lt;mrow&gt;&lt;mi&gt;m&lt;/mi&gt;&lt;mi&gt;n&lt;/mi&gt;&lt;/mrow&gt;&lt;mrow&gt;&lt;mo&gt;→&lt;/mo&gt;&lt;/mrow&gt;&lt;/mover&gt;&lt;mover&gt;&lt;mrow&gt;&lt;mi&gt;o&lt;/mi&gt;&lt;mi&gt;p&lt;/mi&gt;&lt;/mrow&gt;&lt;mrow&gt;&lt;mo&gt;͡&lt;/mo&gt;&lt;/mrow&gt;&lt;/mover&gt;&lt;/mrow&gt;&lt;/math&gt;</MathML>
+      <Id>dcf7e7dc9e5f4c77925202fd6450a293</Id>
+      <X>31.645</X>
+      <Y>0</Y>
+      <Width>522.71</Width>
+      <Height>167</Height>
+      <Rotation>0</Rotation>
+      <IsLocked>False</IsLocked>
+      <CanClone>False</CanClone>
+      <HasMask>False</HasMask>
+      <RotateOrigin>0.5,0.5</RotateOrigin>
+    </MathFormula>
+    <MathFormula>
+      <Foreground>
+        <ColorBrush>#FF000000</ColorBrush>
+      </Foreground>
+      <MathML>&lt;?xml version="1.0" encoding="utf-8"?&gt;&lt;math xmlns="http://www.w3.org/1998/Math/MathML"&gt;&lt;mrow&gt;&lt;mo&gt;&lt;/mo&gt;&lt;mo&gt;&lt;/mo&gt;&lt;mo&gt;&lt;/mo&gt;&lt;mo&gt;&lt;/mo&gt;&lt;mo&gt;&lt;/mo&gt;&lt;mo&gt;&lt;/mo&gt;&lt;mo&gt;&lt;/mo&gt;&lt;mtext&gt;‰&lt;/mtext&gt;&lt;mo&gt;&lt;/mo&gt;&lt;mo&gt;&lt;/mo&gt;&lt;mo&gt;&lt;/mo&gt;&lt;mo&gt;&lt;/mo&gt;&lt;mo&gt;&lt;/mo&gt;&lt;mo&gt;&lt;/mo&gt;&lt;mo&gt;&lt;/mo&gt;&lt;mo&gt;&lt;/mo&gt;&lt;mo&gt;&lt;/mo&gt;&lt;mo&gt;&lt;/mo&gt;&lt;mo&gt;&lt;/mo&gt;&lt;mo&gt;&lt;/mo&gt;&lt;mo&gt;&lt;/mo&gt;&lt;mo&gt;&lt;/mo&gt;&lt;mo&gt;&lt;/mo&gt;&lt;mo&gt;&lt;/mo&gt;&lt;mtext&gt;□&lt;/mtext&gt;&lt;mtext&gt;∥&lt;/mtext&gt;&lt;mo&gt;&lt;/mo&gt;&lt;/mrow&gt;&lt;/math&gt;</MathML>
+      <Id>ffd128d798344140846a5fd0a50c6e12</Id>
+      <X>-44.125</X>
+      <Y>167</Y>
+      <Width>1368.25</Width>
+      <Height>70.16</Height>
+      <Rotation>0</Rotation>
+      <IsLocked>False</IsLocked>
+      <CanClone>False</CanClone>
+      <HasMask>False</HasMask>
+      <RotateOrigin>0.5,0.5</RotateOrigin>
+    </MathFormula>
+    <MathFormula>
+      <Foreground>
+        <ColorBrush>#FF000000</ColorBrush>
+      </Foreground>
+      <MathML>&lt;?xml version="1.0" encoding="utf-8"?&gt;&lt;math xmlns="http://www.w3.org/1998/Math/MathML"&gt;&lt;mrow&gt;&lt;mtext&gt;∵&lt;/mtext&gt;&lt;mtext&gt;∴&lt;/mtext&gt;&lt;mo&gt;&lt;/mo&gt;&lt;mo&gt;&lt;/mo&gt;&lt;mo&gt;&lt;/mo&gt;&lt;mo&gt;&lt;/mo&gt;&lt;mo&gt;&lt;/mo&gt;&lt;mo&gt;&lt;/mo&gt;&lt;mo&gt;&lt;/mo&gt;&lt;mo&gt;&lt;/mo&gt;&lt;mo&gt;&lt;/mo&gt;&lt;mo&gt;&lt;/mo&gt;&lt;mo&gt;&lt;/mo&gt;&lt;mo&gt;&lt;/mo&gt;&lt;mtext&gt;|&lt;/mtext&gt;&lt;mi&gt;q&lt;/mi&gt;&lt;mtext&gt;|&lt;/mtext&gt;&lt;mover&gt;&lt;mrow&gt;&lt;mi&gt;r&lt;/mi&gt;&lt;/mrow&gt;&lt;mrow&gt;&lt;mo&gt;̅&lt;/mo&gt;&lt;/mrow&gt;&lt;/mover&gt;&lt;mo&gt;&lt;/mo&gt;&lt;mover&gt;&lt;mrow&gt;&lt;mi&gt;s&lt;/mi&gt;&lt;/mrow&gt;&lt;mrow&gt;&lt;mo&gt;˙&lt;/mo&gt;&lt;/mrow&gt;&lt;/mover&gt;&lt;/mrow&gt;&lt;/math&gt;</MathML>
+      <Id>0d03953b45d04e6cbe413a70075276ba</Id>
+      <X>31.64</X>
+      <Y>252</Y>
+      <Width>1106.6</Width>
+      <Height>100</Height>
+      <Rotation>0</Rotation>
+      <IsLocked>False</IsLocked>
+      <CanClone>False</CanClone>
+      <HasMask>False</HasMask>
+      <RotateOrigin>0.5,0.5</RotateOrigin>
+    </MathFormula>
+  </Elements>
+</Slide>
